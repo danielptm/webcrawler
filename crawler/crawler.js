@@ -19,9 +19,6 @@ const writeFile = require('write');
     const $ = cheerio.load(content);
     const listText = $('#eventList').children().text();
 
-
-    console.log(content);
-
     // const json = JSON.parse(text);
 
     // // promise

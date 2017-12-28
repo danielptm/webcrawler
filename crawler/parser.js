@@ -4,22 +4,36 @@ const fs = require('fs');
 
 
 module.exports.getEventsAsRawHTML = (texturl) => {
-    var eventItem = new RegExp("<li class=\"event-list__item event-list__item--image\">(.*)</li>");
+    // var eventItem = new RegExp("<li class=\"event-list__item event-list__item--image\">(.*)</li>");
+    // var eventItem = new RegExp("<li class=\"event-list__item event-list__item--image\">(.|/\\n/*)</li>");
+
+    const content = fs.readFileSync(texturl);
+
+    // const lr = new LineByLineReader(texturl);
+    const $ = cheerio.load(content);
+    const listText = $('li').toArray();
 
 
-    const lr = new LineByLineReader(texturl);
-    // const $ = cheerio.load(content);
-    // const listText = $('#eventList').children().text();
+
+    listText.forEach((item) => console.log(item.children.forEach((e) => console.log(e))) );
+
+    // console.log(listText);
 
     let events = [];
-    const text = fs.readFileSync(texturl);
 
     // console.log(text.toString());
 
-    const items = text.toString().match(eventItem);
+    // const items = text.toString().match(eventItem);
 
-    console.log('*****');
-    console.log(items);
+    // console.log('*******');
+    //
+    // console.log(items);
+
+
+    // for(var i=0; i<items.length; i++){
+    //     console.log('*************************************************************************************************************************************************************************************************************************************************');
+    //     console.log(items[i]);
+    // }
 
 
     // lr.on('line', function (line) {
