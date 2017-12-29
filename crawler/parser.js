@@ -1,52 +1,72 @@
 const LineByLineReader = require('line-by-line');
 const cheerio = require('cheerio');
-const fs = require('fs');
 
+const rootPath = 'https://www.visitstockholm.com/events/';
 
-module.exports.getEventsAsRawHTML = (texturl) => {
-    // var eventItem = new RegExp("<li class=\"event-list__item event-list__item--image\">(.*)</li>");
-    // var eventItem = new RegExp("<li class=\"event-list__item event-list__item--image\">(.|/\\n/*)</li>");
+module.exports.getRawEvents = (content) => {
 
-    const content = fs.readFileSync(texturl);
-
-    // const lr = new LineByLineReader(texturl);
-    const $ = cheerio.load(content);
-    const listText = $('li').toArray();
-
-
-
-    listText.forEach((item) => console.log(item.children.forEach((e) => console.log(e))) );
-
-    // console.log(listText);
+    const $ = cheerio.load(content.toString());
 
     let events = [];
 
-    // console.log(text.toString());
+    const x = $('.eventList').html();
+    const $$ = cheerio.load(x);
+    // $$('li').each((i, elem) => events.push(elem) );
 
-    // const items = text.toString().match(eventItem);
+    $$('li').each((i, elem) => {
+       const newEvent = {
+           index: i,
+           month: null,
+           day: null,
+           title: null,
+           description: null,
+           lat: null,
+           lng: null,
+           street: null,
+           city: null,
+           country: null,
+           image: null
+       };
+        events.push(newEvent);
+    });
 
-    // console.log('*******');
+    $$('.event-list__item').find('.event-time__date').each((i, elem) => {
+       events.filter((e) => e.index === i)[0].day = elem.children[0].data;
+    });
+
+    $$('.event-list__item').find('.event-time__month').each((i, elem) =>{
+       events.filter((e) => e.index === i)[0].month = elem.children[0].data;
+    });
+
+    $$('.event-list__item').find('.event-info__heading').each((i, elem) => {
+        events.filter((e) => e.index ===i)[0].title = elem.children[0].data;
+    });
+
+    $$('.event-list__item').find('.event-info__content').each((i, elem) => {
+        events.filter((e) => e.index === i)[0].description = elem.children[0].data;
+    });
+
+    $$('.event-list__item').find('.event-figure__img').each((i, elem) => {
+        events.filter((e) => e.index === i)[0].image = rootPath + elem.attribs.src;
+    })
+
+
+
+
+    // $$('.event-list__item').find('.event-time__date').each((i, elem) => {
     //
-    // console.log(items);
-
-
-    // for(var i=0; i<items.length; i++){
-    //     console.log('*************************************************************************************************************************************************************************************************************************************************');
-    //     console.log(items[i]);
-    // }
-
-
-    // lr.on('line', function (line) {
-    //     console.log(line);
-    //     if(line.match(eventItem)){
-    //         // console.log("888");
-    //         // console.log(line.trim());
-    //
-    //     }
     // });
 
-
+    // console.log(events);
 
 
     return events;
-}
+};
+
+module.exports.getDateAsMilliseconds = (li) => {
+    // console.log('************');
+    // console.log(li.find('p'));
+
+  return null;
+
+};
