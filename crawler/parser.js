@@ -54,10 +54,11 @@ module.exports.getRawEventsAndConvertToJson = (content) => {
     $$('.event-list__item').find('.event-list-anchor').each((i, elem) => {
         events.filter((e) => e.index === i)[0].moreInfoLink = rootPath + elem.attribs.href;
     });
+    console.log("** Globati has retrieved events there are this many events: "+events.length);
     return events;
 };
 
-module.exports.getStreetForEvents = (event, content) => {
+module.exports.getStreetForEvents = (events, content) => {
     for(var i=0; i< events.length; i++){
 
     }
