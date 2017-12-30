@@ -1,7 +1,7 @@
 const LineByLineReader = require('line-by-line');
 const cheerio = require('cheerio');
 
-const rootPath = 'https://www.visitstockholm.com/events/';
+const rootPath = 'https://www.visitstockholm.com/events';
 
 module.exports.getRawEvents = (content) => {
 
@@ -25,7 +25,8 @@ module.exports.getRawEvents = (content) => {
            street: null,
            city: null,
            country: null,
-           image: null
+           image: null,
+           moreInfoLink: null
        };
         events.push(newEvent);
     });
@@ -48,16 +49,11 @@ module.exports.getRawEvents = (content) => {
 
     $$('.event-list__item').find('.event-figure__img').each((i, elem) => {
         events.filter((e) => e.index === i)[0].image = rootPath + elem.attribs.src;
-    })
+    });
 
-
-
-
-    // $$('.event-list__item').find('.event-time__date').each((i, elem) => {
-    //
-    // });
-
-    // console.log(events);
+    $$('.event-list__item').find('.event-list-anchor').each((i, elem) => {
+        events.filter((e) => e.index === i)[0].moreInfoLink = rootPath + elem.attribs.href;
+    });
 
 
     return events;
