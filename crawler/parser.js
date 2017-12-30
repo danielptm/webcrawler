@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 
 const rootPath = 'https://www.visitstockholm.com/events';
 
-module.exports.getRawEvents = (content) => {
+module.exports.getRawEventsAndConvertToJson = (content) => {
 
     const $ = cheerio.load(content.toString());
 
@@ -54,15 +54,14 @@ module.exports.getRawEvents = (content) => {
     $$('.event-list__item').find('.event-list-anchor').each((i, elem) => {
         events.filter((e) => e.index === i)[0].moreInfoLink = rootPath + elem.attribs.href;
     });
-
-
     return events;
 };
 
-module.exports.getDateAsMilliseconds = (li) => {
-    // console.log('************');
-    // console.log(li.find('p'));
+module.exports.getStreetForEvents = (event, content) => {
+    for(var i=0; i< events.length; i++){
 
-  return null;
+    }
+
+    return event;
 
 };

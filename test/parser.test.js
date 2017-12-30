@@ -5,24 +5,32 @@ const fs = require('fs');
 
 
 const dataurl = 'test/testdata.html';
+const streeturl = 'test/streetdata.html';
 const rawEvents = null;
+const streetData = null;
+const content = null;
 
 beforeEach(() => {
-    const content = fs.readFileSync(dataurl);
-    this.rawEvents = parser.getRawEvents(content.toString())
+    this.content = fs.readFileSync(dataurl);
+    this.streetData = fs.readFileSync(streeturl);
+
 });
 
 
-it('Should return an array of raw event data', () => {
-    assert.strictEqual(true, this.rawEvents.length>0);
+
+it('Should parse data, and return objects in a json array.', () => {
+    this.rawEvents = parser.getRawEventsAndConvertToJson(this.content.toString());
+    assert.strictEqual(true, this.rawEvents.length > 0);
 });
 
-it('Should return a dat in the form of 2 digits, and a month in the form of 3 characters', () => {
-    // const dayregex = new RegExp([0-9][0-9]);
-    // const monthregex = new RegExp([a-z][a-z][a-z]);
-   for(var i=0; i<this.rawEvents.length; i++){
-       console.log(this.rawEvents[i]);
-   }
+
+it('Should get the street location for the event and store it in the object', ()=>{
+
+    for(var i =0; i< this.rawEvents.length; i++){
+        const adjustedEvent = parser.getStreetForEvents(this.rawEvents[i], this.streetData.toString());
+        assert.strictEqual(true, adjustedEvent.street !== null);
+    }
+
 });
 
 

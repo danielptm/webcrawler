@@ -1,6 +1,5 @@
 const phantom = require('phantom');
-const cheerio = require('cheerio');
-const writeFile = require('write');
+const fs = require('fs');
 
 (async function() {
   const instance = await phantom.create();
@@ -8,12 +7,8 @@ const writeFile = require('write');
   await page.on('onResourceRequested', function(requestData) {
     console.info('Requesting', requestData.url);
   });
-
     const status = await page.open('https://www.visitstockholm.com/events/');
-
     const content = await page.property('content');
-
-
     page.evaluate(function(){
         var a = document.getElementsByClassName('show-all-anchor')[0];
         var e = document.createEvent('MouseEvents');
@@ -23,11 +18,11 @@ const writeFile = require('write');
     }).then(async function(el){
         setTimeout(async function(){
             const content = await page.property('content');
-            const $ = cheerio.load(content);
-            const html = $('#eventList').html();
-            console.log(html);
+            fs.writeFileSync('test/unparsed-data/stockholm-events.json', content.toString());
+            if(content.toString().length>1000){
+                fs.writeFileSync('test/parsed-data/stockholm-events.json',content.toString());
+            }
             instance.exit();
-        }, 2000)
+        }, 5000)
     });
-
 })();
