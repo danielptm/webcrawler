@@ -12,67 +12,22 @@ const writeFile = require('write');
     const status = await page.open('https://www.visitstockholm.com/events/');
 
     const content = await page.property('content');
-    const $ = await cheerio.load(content);
 
 
-    await page.on('onConsoleMessage', function(msg) {
-        console.log(msg);
+    page.evaluate(function(){
+        var a = document.getElementsByClassName('show-all-anchor')[0];
+        var e = document.createEvent('MouseEvents');
+        e.initMouseEvent('click', true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
+        a.dispatchEvent(e);
+        return a;
+    }).then(async function(el){
+        setTimeout(async function(){
+            const content = await page.property('content');
+            const $ = cheerio.load(content);
+            const html = $('#eventList').html();
+            console.log(html);
+            instance.exit();
+        }, 2000)
     });
-    //
-    //
-    // await page.includeJs("http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js", function() {
-    //     var foo = page.evaluate(function() {
-    //         var el = document.getElementsByClassName('show-all-anchor');
-    //         click(el[0]);
-    //     });
-    // });
-
-
-   await page.evaluate(function(){
-       return document.getElementsByClassName('show-all-anchor');
-    }).then(function(html){
-        console.log('*****************');
-        console.log(html);
-
-        // var ev = document.createEvent("MouseEvent");
-        // ev.initMouseEvent(
-        //     "click",
-        //     true /* bubble */, true /* cancelable */,
-        //     window, null,
-        //     0, 0, 0, 0, /* coordinates */
-        //     false, false, false, false, /* modifier keys */
-        //     0 /*left*/, null
-        // );
-        //
-        //
-        //
-        // el[0].dispatchEvent(ev);
-
-
-        instance.exit();
-
-
-    });
-
-
-
-    //This works sometimes.
-    // const html = await $('#eventList').html();
-    // console.log(html);
-
 
 })();
-
-function click(el){
-    console.log('HEJ!');
-    var ev = document.createEvent("MouseEvent");
-    ev.initMouseEvent(
-        "click",
-        true /* bubble */, true /* cancelable */,
-        window, null,
-        0, 0, 0, 0, /* coordinates */
-        false, false, false, false, /* modifier keys */
-        0 /*left*/, null
-    );
-    el.dispatchEvent(ev);
-}
