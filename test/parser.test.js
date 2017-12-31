@@ -10,14 +10,17 @@ const streetData = null;
 const dataurl = 'test/content.html';
 const content = null;
 
-const city = 'Stockholm';
-const country = 'Sweden';
+
 
 beforeEach(() => {
+
+    const city = 'Stockholm';
+    const country = 'Sweden';
+
     this.content = fs.readFileSync(dataurl).toString();
     this.streetData = fs.readFileSync(streeturl);
     this.content = fs.readFileSync(dataurl);
-    this.rawEvents = parser.getRawEventsAndConvertToJson( this.city, this.country, this.content );
+    this.rawEvents = parser.getRawEventsAndConvertToJson( city, country, this.content );
 
 
 });
@@ -38,6 +41,7 @@ it('Should get the street location for the event and store it in the object', ()
 
     for(var i =0; i < this.rawEvents.length; i++){
         const adjustedEvent = parser.getStreetForEvents(this.rawEvents[i], this.streetData.toString());
+        console.log(adjustedEvent);
         assert.strictEqual(true, adjustedEvent.street !== null);
     }
 

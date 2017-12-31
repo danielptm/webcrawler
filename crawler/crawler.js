@@ -63,7 +63,9 @@ async function loadEventsToGetJsonEventsWithStreetData(events){
                 const event = parser.getStreetForEvents(events[i], content);
                 instance.exit();
                 eventsToWrite.push(event);
-                fs.writeFileSync('parsed-data/stockholm-events.json', JSON.stringify(eventsToWrite));
+                if(eventsToWrite.length > 50) {
+                    fs.writeFileSync('parsed-data/stockholm-events.json', JSON.stringify(eventsToWrite));
+                }
             }, (time * i));
         }, time * i);
     }

@@ -1,6 +1,7 @@
 const LineByLineReader = require('line-by-line');
 const cheerio = require('cheerio');
 const fs = require('fs');
+const request = require('request');
 
 
 const rootPath = 'https://www.visitstockholm.com';
@@ -34,12 +35,14 @@ module.exports.getRawEventsAndConvertToJson = (city, country, content) => {
            lat: null,
            lng: null,
            street: null,
+           streetNumber: null,
            city: city,
            country: country,
            image: null,
            moreInfoLink: null,
            location: null,
-           extra: null
+           extra: null,
+           extra2: null
        };
         events.push(newEvent);
     });
@@ -74,23 +77,22 @@ module.exports.getStreetForEvents = (event, content) => {
 
     const $$ = cheerio.load(content.toString());
 
-    const city = event.city;
-    const country = event.country;
-    const street = null;
-    const streetNumber = null;
-    const url = `https://maps.googleapis.com/maps/api/geocode/json?address=${street+"+"+streetNumber+"+"+city+"+"+country}&key=+${APIKEY}`;
+    // const street = null;
+    // const streetNumber = null;
+    // const url = `https://maps.googleapis.com/maps/api/geocode/json?address=${street+"+"+streetNumber+"+"+city+"+"+country}&key=+${APIKEY}`;
 
      const x = $$('.event-detail__info').find('.event-detail__info--light').each((i, elem) =>{
          if(i === 0){
-             event.street = elem.children[0].data;
+             event.extra = elem.children[0].data;
          }
          if(i == 1){
-             event.street = event.street+" "+elem.children[0].data;
+             const streetItems = elem.children[0].data.split(' ');
+             event.street = streetItems[0];
+             event.streetNumber = streetItems[1];
          }
          if(i===2){
-             event.extra = elem.children[0].data
+             event.extra2 = elem.children[0].data
          }
-
      });
     return event;
 };
