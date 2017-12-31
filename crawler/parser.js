@@ -1,15 +1,26 @@
 const LineByLineReader = require('line-by-line');
 const cheerio = require('cheerio');
+const fs = require('fs');
 
-const rootPath = 'https://www.visitstockholm.com/events';
 
-module.exports.getRawEventsAndConvertToJson = (content) => {
+const rootPath = 'https://www.visitstockholm.com';
+const APIKEY = 'AIzaSyAUqNpRm7FyWf5O8EXVkjVy9PjXmfGkHsg';
 
-    const $ = cheerio.load(content.toString());
 
+/**
+ * Parses html and returns a json array with the events.
+ * @param city
+ * @param country
+ * @param content
+ * @returns {Array}
+ */
+module.exports.getRawEventsAndConvertToJson = (city, country, content) => {
+
+    const $ = cheerio.load(content);
     let events = [];
 
     const x = $('.eventList').html();
+
     const $$ = cheerio.load(x);
     // $$('li').each((i, elem) => events.push(elem) );
 
@@ -23,10 +34,12 @@ module.exports.getRawEventsAndConvertToJson = (content) => {
            lat: null,
            lng: null,
            street: null,
-           city: null,
-           country: null,
+           city: city,
+           country: country,
            image: null,
-           moreInfoLink: null
+           moreInfoLink: null,
+           location: null,
+           extra: null
        };
         events.push(newEvent);
     });
@@ -54,15 +67,31 @@ module.exports.getRawEventsAndConvertToJson = (content) => {
     $$('.event-list__item').find('.event-list-anchor').each((i, elem) => {
         events.filter((e) => e.index === i)[0].moreInfoLink = rootPath + elem.attribs.href;
     });
-    console.log("** Globati has retrieved events there are this many events: "+events.length);
     return events;
 };
 
-module.exports.getStreetForEvents = (events, content) => {
-    for(var i=0; i< events.length; i++){
+module.exports.getStreetForEvents = (event, content) => {
 
-    }
+    const $$ = cheerio.load(content.toString());
 
+    const city = event.city;
+    const country = event.country;
+    const street = null;
+    const streetNumber = null;
+    const url = `https://maps.googleapis.com/maps/api/geocode/json?address=${street+"+"+streetNumber+"+"+city+"+"+country}&key=+${APIKEY}`;
+
+     const x = $$('.event-detail__info').find('.event-detail__info--light').each((i, elem) =>{
+         if(i === 0){
+             event.street = elem.children[0].data;
+         }
+         if(i == 1){
+             event.street = event.street+" "+elem.children[0].data;
+         }
+         if(i===2){
+             event.extra = elem.children[0].data
+         }
+
+     });
     return event;
-
 };
+
