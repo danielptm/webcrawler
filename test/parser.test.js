@@ -41,7 +41,7 @@ it('Should get the street location for the event and store it in the object', ()
 
     for(var i =0; i < this.rawEvents.length; i++){
         const adjustedEvent = parser.getStreetForEvents(this.rawEvents[i], this.streetData.toString());
-        console.log(adjustedEvent);
+        // console.log(adjustedEvent);
         assert.strictEqual(true, adjustedEvent.street !== null);
     }
 

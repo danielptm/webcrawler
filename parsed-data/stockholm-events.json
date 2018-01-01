@@ -1,14 +1,14 @@
 [
   {
     "index": 0,
-    "month": "Dec",
-    "day": "31",
+    "month": "Jan",
+    "day": "1",
     "title": "Christmas in houses and farmsteads",
     "description": "All days except Christmas Eve you can visit some houses and farms where Christmas is celebrated. The bonfires are lit and the Christmas dinner tables are set in the Väla school, Oktorp and Delsbo farmsteads, the Post office and the Farm...",
     "lat": null,
     "lng": null,
-    "street": null,
-    "streetNumber": null,
+    "street": "Djurgårdsslätten",
+    "streetNumber": "49-51",
     "city": "Stockholm",
     "country": "Sweden",
     "image": "https://www.visitstockholm.com/contentassets/108957bc43554bca91a8a33944566543/eventadmin70.jpg?preset=rectangle_small",
@@ -19,26 +19,8 @@
   },
   {
     "index": 1,
-    "month": "Dec",
-    "day": "31",
-    "title": "Stockholm winter tour",
-    "description": "A sightseeing tour by boat in a wintery Stockholm, along the city’s quays, out to and around the islands of Fjäderholmarna. There are skin rugs and fleece blankets to keep you warm on upper deck, if you feel like sitting outside....",
-    "lat": null,
-    "lng": null,
-    "street": null,
-    "streetNumber": null,
-    "city": "Stockholm",
-    "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/dbe4181eaeca45d7a9a1a31a4949031e/stockholm-winter-tour_rectangle.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/guided-tours/stockholm-winter-tour/",
-    "location": null,
-    "extra": null,
-    "extra2": null
-  },
-  {
-    "index": 2,
-    "month": "Dec",
-    "day": "31",
+    "month": "Jan",
+    "day": "1",
     "title": "Åsa Sjöström - Silent Land",
     "description": "Silent Land is a portrait of life in Moldova, one of Europe’s poorest and least known countries. Photographer Åsa Sjöström visited the country repeatedly in the ‘00s. When she returned in 2014 she noticed that something...",
     "lat": null,
@@ -54,9 +36,27 @@
     "extra2": null
   },
   {
+    "index": 2,
+    "month": "Jan",
+    "day": "1",
+    "title": "Stockholm winter tour",
+    "description": "A sightseeing tour by boat in a wintery Stockholm, along the city’s quays, out to and around the islands of Fjäderholmarna. There are skin rugs and fleece blankets to keep you warm on upper deck, if you feel like sitting outside....",
+    "lat": null,
+    "lng": null,
+    "street": null,
+    "streetNumber": null,
+    "city": "Stockholm",
+    "country": "Sweden",
+    "image": "https://www.visitstockholm.com/contentassets/dbe4181eaeca45d7a9a1a31a4949031e/stockholm-winter-tour_rectangle.jpg?preset=rectangle_small",
+    "moreInfoLink": "https://www.visitstockholm.com/events/guided-tours/stockholm-winter-tour/",
+    "location": null,
+    "extra": null,
+    "extra2": null
+  },
+  {
     "index": 3,
-    "month": "Dec",
-    "day": "31",
+    "month": "Jan",
+    "day": "1",
     "title": "Fossil and Evolution",
     "description": "Exhibition at the Swedish Museum of Natural History featuring animals and plants that have come and gone during the history of Earth. The museum is closed on Mondays except during holidays and school breaks.\n",
     "lat": null,
@@ -73,8 +73,8 @@
   },
   {
     "index": 4,
-    "month": "Dec",
-    "day": "31",
+    "month": "Jan",
+    "day": "1",
     "title": "Ice skating in Kungsträdgården",
     "description": "Gliding around this ice-skating rink in the middle of the city is a must for any winter visitors to Stockholm. Renting skates is inexpensive and you can get help sharpening them if necessary. Opening hours: Weekdays 9am-9pm, weekends10am-9pm.\n",
     "lat": null,
@@ -91,8 +91,8 @@
   },
   {
     "index": 5,
-    "month": "Dec",
-    "day": "31",
+    "month": "Jan",
+    "day": "1",
     "title": "Japan - tales of objects and images",
     "description": "Experience all facets of Japan! The exhibition shows over 400 objects from the urban communities of Japan - the Samurai, merchants and craftsmen. Most of the objects date from the Edo period (1615 - 1868) and include works of art through which we...",
     "lat": null,
@@ -109,8 +109,8 @@
   },
   {
     "index": 6,
-    "month": "Dec",
-    "day": "31",
+    "month": "Jan",
+    "day": "1",
     "title": "Nick Veasey - Inside Out",
     "description": "Take a look beneath the surface with Nick Veasey’s x-ray photographs. Everything is stripped down to the bare bone, the raw metal or whichever components are included in the objects that are subjected to Nick Veasey’s X-ray camera. He...",
     "lat": null,
@@ -127,422 +127,8 @@
   },
   {
     "index": 7,
-    "month": "Dec",
-    "day": "31",
-    "title": "Stockholm Free Tour",
-    "description": "Free guided walking tours in English and Spanish that take you to the main sites of Stockholm. Tours start daily at 10 am in Gamla Stan and last for about 1 hour and 30 minutes.\n",
-    "lat": null,
-    "lng": null,
-    "street": null,
-    "streetNumber": null,
-    "city": "Stockholm",
-    "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/e9aa7f0098694a94bea7377bfe45dfd0/eventadmin74.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/guided-tours/stockholm-free-walking-tour/",
-    "location": null,
-    "extra": null,
-    "extra2": null
-  },
-  {
-    "index": 8,
-    "month": "Dec",
-    "day": "31",
-    "title": "Good Evening Europe! – 60 Years Of The Eurovision Song Contest",
-    "description": "Exhibition about the Eurovision Song Contest! Test your knowledge about Eurovision Song Contest in an interactive quiz, sing your favorite songs on the Eurovision stage and see original stage outfit up close.\n",
-    "lat": null,
-    "lng": null,
-    "street": null,
-    "streetNumber": null,
-    "city": "Stockholm",
-    "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/cbce37ed92834fe1b362995aa48605d4/eventadmin7.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/exhibitions/good-evening-europe--60-years-of-the-eurovision-song-contest/",
-    "location": null,
-    "extra": null,
-    "extra2": null
-  },
-  {
-    "index": 9,
-    "month": "Dec",
-    "day": "31",
-    "title": "Women of the Vasa",
-    "description": "In the exhibition on the \"Women of the Vasa\", visitors have the opportunity to learn about important but previously unknown stories on the Vasa. The researchers’ work reveals a new and surprising image of the living conditions of...",
-    "lat": null,
-    "lng": null,
-    "street": null,
-    "streetNumber": null,
-    "city": "Stockholm",
-    "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/b64ddd6aaaa24d44aecc3fc991208fe8/eventadmin70.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/exhibitions/vasas-women-always-present---often-invisible/",
-    "location": null,
-    "extra": null,
-    "extra2": null
-  },
-  {
-    "index": 10,
-    "month": "Dec",
-    "day": "31",
-    "title": "Chen Man - Fearless & Fabulous",
-    "description": "The title says it all: Fearless & Fabulous. It takes both courage and magnetic attraction to achieve the position held by Chinese photographer Chen Man. And her success is a significant (Chinese) sign of the time.\n",
-    "lat": null,
-    "lng": null,
-    "street": null,
-    "streetNumber": null,
-    "city": "Stockholm",
-    "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/1b4930cb4eee4ce18ec64797c0860543/eventadmin68.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/exhibitions/chen-man-fearless--fabulous/",
-    "location": null,
-    "extra": null,
-    "extra2": null
-  },
-  {
-    "index": 11,
-    "month": "Dec",
-    "day": "31",
-    "title": "Stockholmsjul Christmas lights",
-    "description": "On November 25th the Christmas lights will start shining in over 35 streets and city squares in Stockholm! Visit the webpage to get your map.\n",
-    "lat": null,
-    "lng": null,
-    "street": null,
-    "streetNumber": null,
-    "city": "Stockholm",
-    "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/4a0a98eabb0c4339873a28be6b144b80/eventadmin54.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/fairs/stockholmsjul/",
-    "location": null,
-    "extra": null,
-    "extra2": null
-  },
-  {
-    "index": 12,
-    "month": "Dec",
-    "day": "31",
-    "title": "Erik Johansson - Nature Illusions",
-    "description": "See nature in an unexpected way! An exhibition with Erik Johansson's photographic illusions.\n",
-    "lat": null,
-    "lng": null,
-    "street": null,
-    "streetNumber": null,
-    "city": "Stockholm",
-    "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/8cbf75bf30014ec69b60a1647d292a45/eventadmin49.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/exhibitions/nature-illusions--erik-johansson/",
-    "location": null,
-    "extra": null,
-    "extra2": null
-  },
-  {
-    "index": 13,
-    "month": "Dec",
-    "day": "31",
-    "title": "My 50's: Female fashion and casual clothes",
-    "description": "An exhibition about fifties female fashion in Sweden. Nylon socks, corsets, slim waistcoats, skinny skirts and much more! Learn about the history of some of our most popular garments and what they can tell us about society.\n",
-    "lat": null,
-    "lng": null,
-    "street": null,
-    "streetNumber": null,
-    "city": "Stockholm",
-    "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/2e56974134b74c2aae77bba7e3495af0/eventadmin44.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/exhibitions/mid-50s-female-fashion-everyday/",
-    "location": null,
-    "extra": null,
-    "extra2": null
-  },
-  {
-    "index": 14,
-    "month": "Dec",
-    "day": "31",
-    "title": "Swedish nature",
-    "description": "This exhibition, at The Museum of Natural History, shows visitors various aspects of Swedish nature and why natural environments look and function the way they do. The museum is closed on Mondays except during holidays and school breaks.\n",
-    "lat": null,
-    "lng": null,
-    "street": null,
-    "streetNumber": null,
-    "city": "Stockholm",
-    "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/12a7ced2161c41fbb98028bd3fe8c288/swedish-nature_rectangle.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/exhibitions/swedish-nature/",
-    "location": null,
-    "extra": null,
-    "extra2": null
-  },
-  {
-    "index": 15,
-    "month": "Dec",
-    "day": "31",
-    "title": "Bigert & Bergström at Artipelag",
-    "description": "Bigert & Bergström is a contemporary artist duo consisting of Mats Bigert and Lars Bergström. Ever since the duo met in 1986 – at the Art Academy in Stockholm – they have created a variety of art projects, large-scale...",
-    "lat": null,
-    "lng": null,
-    "street": null,
-    "streetNumber": null,
-    "city": "Stockholm",
-    "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/49958a0d46da4e29a37d49b7b5af45df/eventadmin.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/exhibitions/bigert--bergstrom-at-artipelag/",
-    "location": null,
-    "extra": null,
-    "extra2": null
-  },
-  {
-    "index": 16,
-    "month": "Dec",
-    "day": "31",
-    "title": "Sail a ship",
-    "description": "A new interactive adventure for children at the Vasa museum. Set sails, weigh anchor and steer a ship as in the 17th century. Collaboration is necessary to make the digital ship move forward. \n",
-    "lat": null,
-    "lng": null,
-    "street": null,
-    "streetNumber": null,
-    "city": "Stockholm",
-    "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/1c2af327c0274b8aabdbaf28a7358dfa/sail-a-ship_rectangle.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/family/sail-a-ship/",
-    "location": null,
-    "extra": null,
-    "extra2": null
-  },
-  {
-    "index": 17,
-    "month": "Dec",
-    "day": "31",
-    "title": "Folk Music 2.0 - Swedish hip hop",
-    "description": "Folk Music 2.0 - Swedish hip hop remix, an audio-visual experience about one of our most important cultural, is the largest exhibition about Swedish hip hop to date.\n",
-    "lat": null,
-    "lng": null,
-    "street": null,
-    "streetNumber": null,
-    "city": "Stockholm",
-    "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/869fda8ab67045a3b9b71e81dc0c1579/eventadmin33.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/exhibitions/folk-music-2.0---swedish-hip-hop/",
-    "location": null,
-    "extra": null,
-    "extra2": null
-  },
-  {
-    "index": 18,
-    "month": "Dec",
-    "day": "31",
-    "title": "The Modern Woman",
-    "description": "Produced by the Ateneum Art Museum, Helsinki, The Modern Women presents four leading artists of Finnish modernism: Helene Schjerfbeck, Sigrid Schauman, Ellen Thesleff and Elga Sesemann. From the late 19th century and for the greater part of the 20th...",
-    "lat": null,
-    "lng": null,
-    "street": null,
-    "streetNumber": null,
-    "city": "Stockholm",
-    "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/18d93371e1a44e36a1ca6052e5f677cf/eventtipform33.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/exhibitions/the-modern-woman/",
-    "location": null,
-    "extra": null,
-    "extra2": null
-  },
-  {
-    "index": 19,
-    "month": "Dec",
-    "day": "31",
-    "title": "Christmas at Junibacken",
-    "description": "Experience a magical Christmas at Junibacken! Get into the Christmas spirit among decorations and fragrant baking. Buy presents in the bookshop and take the Story Train across the snowy landscape at Lönneberga. And what would Christmas be...",
-    "lat": null,
-    "lng": null,
-    "street": null,
-    "streetNumber": null,
-    "city": "Stockholm",
-    "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/92ce11c746934790bc9ac0a56c4c0cf4/eventadmin66.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/family/christmas-at-junibacken/",
-    "location": null,
-    "extra": null,
-    "extra2": null
-  },
-  {
-    "index": 20,
-    "month": "Dec",
-    "day": "31",
-    "title": "Movie premiere: Animalopolis",
-    "description": "See the animals as you've never seen them before! Animalopolis – Djurfilmen - will fire up children’s imaginations and curiosity about the wild kingdom. This is a movie for our youngest audiences but it will delight adults and...",
-    "lat": null,
-    "lng": null,
-    "street": null,
-    "streetNumber": null,
-    "city": "Stockholm",
-    "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/ffc692f645204486a32bdb0312d16033/eventadmin20.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/family/movie-premiere-animalopolis/",
-    "location": null,
-    "extra": null,
-    "extra2": null
-  },
-  {
-    "index": 21,
-    "month": "Dec",
-    "day": "31",
-    "title": "New Year's celebrations in the Kaknäs Tower Skybar",
-    "description": "Enjoy a special New Year’s Eve menu with a spectacular view of Stockholm's fireworks in the Sky Bar. Make reservations through their website.\n",
-    "lat": null,
-    "lng": null,
-    "street": null,
-    "streetNumber": null,
-    "city": "Stockholm",
-    "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/744b99f14b7a4fd78714235f6f332375/new-years-celebrations-in-the-kaknas-tower-skybar_rectangle.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/festivals/new-years-celebrations-in-the-kaknas-tower-skybar/",
-    "location": null,
-    "extra": null,
-    "extra2": null
-  },
-  {
-    "index": 22,
-    "month": "Dec",
-    "day": "31",
-    "title": "Picture hunt for children",
-    "description": "Go on a picture hunt through the rooms of the palace. A map with pictures of details from the palace's interiors can be borrowed from the front desk. Can you find where in the palace the details can be seen? Choose between the Lion Safari to...",
-    "lat": null,
-    "lng": null,
-    "street": null,
-    "streetNumber": null,
-    "city": "Stockholm",
-    "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/39171edc641b4f7c9abe3834a7667018/eventadmin68.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/family/picture-hunt-for-children/",
-    "location": null,
-    "extra": null,
-    "extra2": null
-  },
-  {
-    "index": 23,
-    "month": "Dec",
-    "day": "31",
-    "title": "Archipelago Tour with guide",
-    "description": "Join this boat tour if you are looking to experience our unique archipelago on in a very inspiring journey. Lunch will be offered but requires pre-booking your meal.\n",
-    "lat": null,
-    "lng": null,
-    "street": null,
-    "streetNumber": null,
-    "city": "Stockholm",
-    "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/48ebb31200e04f1eb553f8330575f3f9/eventadmin72.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/guided-tours/archipelago-tour-with-guide/",
-    "location": null,
-    "extra": null,
-    "extra2": null
-  },
-  {
-    "index": 24,
-    "month": "Dec",
-    "day": "31",
-    "title": "New Year's Concert with the Stockholm Strauss Orchestra",
-    "description": "Come and experience the festive music of the Strauss family, an event for the whole family! Our New Year's concerts are certainly the most beautiful way to end the old and welcome the new year.\n",
-    "lat": null,
-    "lng": null,
-    "street": null,
-    "streetNumber": null,
-    "city": "Stockholm",
-    "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/573cd4fe458748c4a5e53310dbebbaec/eventadmin68.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/music/new-years-concert-with-the-stockholm-strauss-orchestra/",
-    "location": null,
-    "extra": null,
-    "extra2": null
-  },
-  {
-    "index": 25,
-    "month": "Dec",
-    "day": "31",
-    "title": "Brunch cruise on board S/S Stockholm",
-    "description": "At noon every Saturday and Sunday S/S Stockholm departs for a three-hour brunch cruise in Stockholm archipelago. The buffet is filled with traditional dishes made of Swedish primary produce, cold and warm meats, various salads and bread. Make sure...",
-    "lat": null,
-    "lng": null,
-    "street": null,
-    "streetNumber": null,
-    "city": "Stockholm",
-    "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/6e77ec1e1e5e42c9b026352d385689a6/classic-tour-to-vaxholm--the-archipelago-capital_rectangle.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/guided-tours/classic-tour-to-vaxholm--the-archipelago-capital/",
-    "location": null,
-    "extra": null,
-    "extra2": null
-  },
-  {
-    "index": 26,
-    "month": "Dec",
-    "day": "31",
-    "title": "Christmas Oratorio 4-6",
-    "description": "A true Stockholm tradition, for over 30 years, Bach's interpretation of the Christmas story has been performed in the Katarina church on New Year's Eve. \n",
-    "lat": null,
-    "lng": null,
-    "street": null,
-    "streetNumber": null,
-    "city": "Stockholm",
-    "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/5e6742a9ca6f4bfba99e527aa5ae0a72/eventadmin68.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/music/christmas-oratorio-4-6/",
-    "location": null,
-    "extra": null,
-    "extra2": null
-  },
-  {
-    "index": 27,
-    "month": "Dec",
-    "day": "31",
-    "title": "New Year's Concert: Beethoven Symphony No. 9",
-    "description": "New Year's concerts with Beethoven's 9th have been a tradition in the Engelbrekt church for a few years.\n",
-    "lat": null,
-    "lng": null,
-    "street": null,
-    "streetNumber": null,
-    "city": "Stockholm",
-    "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/c11cc142e4614d55b03606c88de4fd06/eventadmin68.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/music/new-years-concert-beethoven-symphony-no.-9/",
-    "location": null,
-    "extra": null,
-    "extra2": null
-  },
-  {
-    "index": 28,
-    "month": "Dec",
-    "day": "31",
-    "title": "New Year's Concert in Stockholm Cathedral",
-    "description": "A festive musical celebration of the new year, featuring two jubilant masterpieces for choir, soli and orchestra. \n",
-    "lat": null,
-    "lng": null,
-    "street": null,
-    "streetNumber": null,
-    "city": "Stockholm",
-    "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/e06b6fc0d96642eeab78f973462ec291/eventtipform212.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/music/new-years-concert/",
-    "location": null,
-    "extra": null,
-    "extra2": null
-  },
-  {
-    "index": 29,
-    "month": "Dec",
-    "day": "31",
-    "title": "Blacknuss New Year's Concert!",
-    "description": "Welcome to Blacknuss New Year's Concert! As 2017 draws to a close the legendary music collective serves up a delicious blend of disco and soul, with everything from Aretha Franklin to Bruno Mars. Do not miss this New Year's party!\n",
-    "lat": null,
-    "lng": null,
-    "street": null,
-    "streetNumber": null,
-    "city": "Stockholm",
-    "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/ae8d471c81b34d28bc9a93e847673849/eventadmin68.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/music/blacknuss-new-years-concert/",
-    "location": null,
-    "extra": null,
-    "extra2": null
-  },
-  {
-    "index": 30,
-    "month": "Dec",
-    "day": "31",
+    "month": "Jan",
+    "day": "1",
     "title": "New Year's Eve masquerade",
     "description": "Celebrate the new year in a fabulous way at gorgeous Nalen! There will be burlesque shows, music, dancing, champagne and other beautiful things happening, and all in the world of Wonderland. A mild dress code requires you to dress up.\n",
     "lat": null,
@@ -558,81 +144,225 @@
     "extra2": null
   },
   {
-    "index": 31,
-    "month": "Dec",
-    "day": "31",
-    "title": "New Year's Eve at Fotografiska",
-    "description": "Spend the last hours of 2017 (as well as the first of 2018) at Fotografiska with a splendid dinner in the award-winning restaurant, great DJs, and a marvelous view of the fireworks at midnight. Pre-booking required.\n",
+    "index": 8,
+    "month": "Jan",
+    "day": "1",
+    "title": "Picture hunt for children",
+    "description": "Go on a picture hunt through the rooms of the palace. A map with pictures of details from the palace's interiors can be borrowed from the front desk. Can you find where in the palace the details can be seen? Choose between the Lion Safari to...",
     "lat": null,
     "lng": null,
     "street": null,
     "streetNumber": null,
     "city": "Stockholm",
     "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/412311bcc16140738352af6a08be4702/eventadmin73.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/family/new-years-eve-at-fotografiska/",
+    "image": "https://www.visitstockholm.com/contentassets/39171edc641b4f7c9abe3834a7667018/eventadmin68.jpg?preset=rectangle_small",
+    "moreInfoLink": "https://www.visitstockholm.com/events/family/picture-hunt-for-children/",
     "location": null,
     "extra": null,
     "extra2": null
   },
   {
-    "index": 32,
-    "month": "Dec",
-    "day": "31",
-    "title": "New Year's Eve at Södra Teatern",
-    "description": "Celebrate the New Year’s Eve at Södra Teatern! The whole building will be one giant party with dj's, music and bars on every floor.\n",
+    "index": 9,
+    "month": "Jan",
+    "day": "1",
+    "title": "Stockholm Free Tour",
+    "description": "Free guided walking tours in English and Spanish that take you to the main sites of Stockholm. Tours start daily at 10 am in Gamla Stan and last for about 1 hour and 30 minutes.\n",
     "lat": null,
     "lng": null,
     "street": null,
     "streetNumber": null,
     "city": "Stockholm",
     "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/5ef08db7cbd34f02b0944dd9b9c7ef69/new-years-eve-at-sodra-teatern_rectangle.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/music/new-years-eve-at-sodra-teatern/",
+    "image": "https://www.visitstockholm.com/contentassets/e9aa7f0098694a94bea7377bfe45dfd0/eventadmin74.jpg?preset=rectangle_small",
+    "moreInfoLink": "https://www.visitstockholm.com/events/guided-tours/stockholm-free-walking-tour/",
     "location": null,
     "extra": null,
     "extra2": null
   },
   {
-    "index": 33,
-    "month": "Dec",
-    "day": "31",
-    "title": "New Year's Eve at Skansen",
-    "description": "Celebrate a classic New Year's Eve on Skansen! There´s entertainment on the Solliden stage where the classic lord Tennyson poem \"Ring out wild bells\" is recited every year at midnight for a large audience. Toast the New Year with...",
+    "index": 10,
+    "month": "Jan",
+    "day": "1",
+    "title": "Good Evening Europe! – 60 Years Of The Eurovision Song Contest",
+    "description": "Exhibition about the Eurovision Song Contest! Test your knowledge about Eurovision Song Contest in an interactive quiz, sing your favorite songs on the Eurovision stage and see original stage outfit up close.\n",
     "lat": null,
     "lng": null,
     "street": null,
     "streetNumber": null,
     "city": "Stockholm",
     "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/74802382b1814512b4c73ad120662580/eventadmin72.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/family/new-years-eve/",
+    "image": "https://www.visitstockholm.com/contentassets/cbce37ed92834fe1b362995aa48605d4/eventadmin7.jpg?preset=rectangle_small",
+    "moreInfoLink": "https://www.visitstockholm.com/events/exhibitions/good-evening-europe--60-years-of-the-eurovision-song-contest/",
     "location": null,
     "extra": null,
     "extra2": null
   },
   {
-    "index": 34,
-    "month": "Dec",
-    "day": "31",
-    "title": "New years party with Demokratiskt Dansgolv",
-    "description": "The beloved club Demokratiskt Dansgolv - litteraly \"Democratic Dancfloor\" - is back, for a New Years party to remember. Two teams of DJ's duke it out, each with their own signature style and crate, and the clubgoers decide who gets to...",
+    "index": 11,
+    "month": "Jan",
+    "day": "1",
+    "title": "Women of the Vasa",
+    "description": "In the exhibition on the \"Women of the Vasa\", visitors have the opportunity to learn about important but previously unknown stories on the Vasa. The researchers’ work reveals a new and surprising image of the living conditions of...",
     "lat": null,
     "lng": null,
     "street": null,
     "streetNumber": null,
     "city": "Stockholm",
     "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/6beb8dc8cccc4b69be8d0b5b81aace89/eventadmin68.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/music/new-years-party-with-demokratiskt-dansgolv/",
+    "image": "https://www.visitstockholm.com/contentassets/b64ddd6aaaa24d44aecc3fc991208fe8/eventadmin70.jpg?preset=rectangle_small",
+    "moreInfoLink": "https://www.visitstockholm.com/events/exhibitions/vasas-women-always-present---often-invisible/",
     "location": null,
     "extra": null,
     "extra2": null
   },
   {
-    "index": 35,
-    "month": "Dec",
-    "day": "31",
+    "index": 12,
+    "month": "Jan",
+    "day": "1",
+    "title": "Chen Man - Fearless & Fabulous",
+    "description": "The title says it all: Fearless & Fabulous. It takes both courage and magnetic attraction to achieve the position held by Chinese photographer Chen Man. And her success is a significant (Chinese) sign of the time.\n",
+    "lat": null,
+    "lng": null,
+    "street": null,
+    "streetNumber": null,
+    "city": "Stockholm",
+    "country": "Sweden",
+    "image": "https://www.visitstockholm.com/contentassets/1b4930cb4eee4ce18ec64797c0860543/eventadmin68.jpg?preset=rectangle_small",
+    "moreInfoLink": "https://www.visitstockholm.com/events/exhibitions/chen-man-fearless--fabulous/",
+    "location": null,
+    "extra": null,
+    "extra2": null
+  },
+  {
+    "index": 13,
+    "month": "Jan",
+    "day": "1",
+    "title": "Stockholmsjul Christmas lights",
+    "description": "On November 25th the Christmas lights will start shining in over 35 streets and city squares in Stockholm! Visit the webpage to get your map.\n",
+    "lat": null,
+    "lng": null,
+    "street": null,
+    "streetNumber": null,
+    "city": "Stockholm",
+    "country": "Sweden",
+    "image": "https://www.visitstockholm.com/contentassets/4a0a98eabb0c4339873a28be6b144b80/eventadmin54.jpg?preset=rectangle_small",
+    "moreInfoLink": "https://www.visitstockholm.com/events/fairs/stockholmsjul/",
+    "location": null,
+    "extra": null,
+    "extra2": null
+  },
+  {
+    "index": 14,
+    "month": "Jan",
+    "day": "1",
+    "title": "Erik Johansson - Nature Illusions",
+    "description": "See nature in an unexpected way! An exhibition with Erik Johansson's photographic illusions.\n",
+    "lat": null,
+    "lng": null,
+    "street": null,
+    "streetNumber": null,
+    "city": "Stockholm",
+    "country": "Sweden",
+    "image": "https://www.visitstockholm.com/contentassets/8cbf75bf30014ec69b60a1647d292a45/eventadmin49.jpg?preset=rectangle_small",
+    "moreInfoLink": "https://www.visitstockholm.com/events/exhibitions/nature-illusions--erik-johansson/",
+    "location": null,
+    "extra": null,
+    "extra2": null
+  },
+  {
+    "index": 15,
+    "month": "Jan",
+    "day": "1",
+    "title": "My 50's: Female fashion and casual clothes",
+    "description": "An exhibition about fifties female fashion in Sweden. Nylon socks, corsets, slim waistcoats, skinny skirts and much more! Learn about the history of some of our most popular garments and what they can tell us about society.\n",
+    "lat": null,
+    "lng": null,
+    "street": null,
+    "streetNumber": null,
+    "city": "Stockholm",
+    "country": "Sweden",
+    "image": "https://www.visitstockholm.com/contentassets/2e56974134b74c2aae77bba7e3495af0/eventadmin44.jpg?preset=rectangle_small",
+    "moreInfoLink": "https://www.visitstockholm.com/events/exhibitions/mid-50s-female-fashion-everyday/",
+    "location": null,
+    "extra": null,
+    "extra2": null
+  },
+  {
+    "index": 16,
+    "month": "Jan",
+    "day": "1",
+    "title": "Swedish nature",
+    "description": "This exhibition, at The Museum of Natural History, shows visitors various aspects of Swedish nature and why natural environments look and function the way they do. The museum is closed on Mondays except during holidays and school breaks.\n",
+    "lat": null,
+    "lng": null,
+    "street": null,
+    "streetNumber": null,
+    "city": "Stockholm",
+    "country": "Sweden",
+    "image": "https://www.visitstockholm.com/contentassets/12a7ced2161c41fbb98028bd3fe8c288/swedish-nature_rectangle.jpg?preset=rectangle_small",
+    "moreInfoLink": "https://www.visitstockholm.com/events/exhibitions/swedish-nature/",
+    "location": null,
+    "extra": null,
+    "extra2": null
+  },
+  {
+    "index": 17,
+    "month": "Jan",
+    "day": "1",
+    "title": "Bigert & Bergström at Artipelag",
+    "description": "Bigert & Bergström is a contemporary artist duo consisting of Mats Bigert and Lars Bergström. Ever since the duo met in 1986 – at the Art Academy in Stockholm – they have created a variety of art projects, large-scale...",
+    "lat": null,
+    "lng": null,
+    "street": null,
+    "streetNumber": null,
+    "city": "Stockholm",
+    "country": "Sweden",
+    "image": "https://www.visitstockholm.com/contentassets/49958a0d46da4e29a37d49b7b5af45df/eventadmin.jpg?preset=rectangle_small",
+    "moreInfoLink": "https://www.visitstockholm.com/events/exhibitions/bigert--bergstrom-at-artipelag/",
+    "location": null,
+    "extra": null,
+    "extra2": null
+  },
+  {
+    "index": 18,
+    "month": "Jan",
+    "day": "1",
+    "title": "Movie premiere: Animalopolis",
+    "description": "See the animals as you've never seen them before! Animalopolis – Djurfilmen - will fire up children’s imaginations and curiosity about the wild kingdom. This is a movie for our youngest audiences but it will delight adults and...",
+    "lat": null,
+    "lng": null,
+    "street": null,
+    "streetNumber": null,
+    "city": "Stockholm",
+    "country": "Sweden",
+    "image": "https://www.visitstockholm.com/contentassets/ffc692f645204486a32bdb0312d16033/eventadmin20.jpg?preset=rectangle_small",
+    "moreInfoLink": "https://www.visitstockholm.com/events/family/movie-premiere-animalopolis/",
+    "location": null,
+    "extra": null,
+    "extra2": null
+  },
+  {
+    "index": 19,
+    "month": "Jan",
+    "day": "1",
+    "title": "The Modern Woman",
+    "description": "Produced by the Ateneum Art Museum, Helsinki, The Modern Women presents four leading artists of Finnish modernism: Helene Schjerfbeck, Sigrid Schauman, Ellen Thesleff and Elga Sesemann. From the late 19th century and for the greater part of the 20th...",
+    "lat": null,
+    "lng": null,
+    "street": null,
+    "streetNumber": null,
+    "city": "Stockholm",
+    "country": "Sweden",
+    "image": "https://www.visitstockholm.com/contentassets/18d93371e1a44e36a1ca6052e5f677cf/eventtipform33.jpg?preset=rectangle_small",
+    "moreInfoLink": "https://www.visitstockholm.com/events/exhibitions/the-modern-woman/",
+    "location": null,
+    "extra": null,
+    "extra2": null
+  },
+  {
+    "index": 20,
+    "month": "Jan",
+    "day": "1",
     "title": "New Year's Eve 2017",
     "description": "The countdown has begun and Stureplansgruppen’s nightclubs are getting ready for this year’s final party. Ring in the new year with your friends at Berns, Hell’s Kitchen, The Spy Bar or Sturecompagniet. Tickets are available at...",
     "lat": null,
@@ -648,7 +378,7 @@
     "extra2": null
   },
   {
-    "index": 36,
+    "index": 21,
     "month": "Jan",
     "day": "1",
     "title": "Vikings at Historiska Museum",
@@ -666,7 +396,25 @@
     "extra2": null
   },
   {
-    "index": 37,
+    "index": 22,
+    "month": "Jan",
+    "day": "1",
+    "title": "Archipelago Tour with guide",
+    "description": "Join this boat tour if you are looking to experience our unique archipelago on in a very inspiring journey. Lunch will be offered but requires pre-booking your meal.\n",
+    "lat": null,
+    "lng": null,
+    "street": null,
+    "streetNumber": null,
+    "city": "Stockholm",
+    "country": "Sweden",
+    "image": "https://www.visitstockholm.com/contentassets/48ebb31200e04f1eb553f8330575f3f9/eventadmin72.jpg?preset=rectangle_small",
+    "moreInfoLink": "https://www.visitstockholm.com/events/guided-tours/archipelago-tour-with-guide/",
+    "location": null,
+    "extra": null,
+    "extra2": null
+  },
+  {
+    "index": 23,
     "month": "Jan",
     "day": "1",
     "title": "Organ concert",
@@ -684,7 +432,7 @@
     "extra2": null
   },
   {
-    "index": 38,
+    "index": 24,
     "month": "Jan",
     "day": "1",
     "title": "New Year's Concert in Berwaldhallen",
@@ -702,25 +450,25 @@
     "extra2": null
   },
   {
-    "index": 39,
+    "index": 25,
     "month": "Jan",
-    "day": "2",
-    "title": "Katanas",
-    "description": "Japanese katana swords have been the weapon of choice for samurais for nearly a thousand years. Imbued with almost mythical qualities the slightly curved blades have been a signifier in Japanese culture and has become a popular weapon of choice...",
+    "day": "1",
+    "title": "New Year's Concert: Beethoven Symphony No. 9",
+    "description": "New Year's concerts with Beethoven's 9th have been a tradition in the Engelbrekt church for a few years.\n",
     "lat": null,
     "lng": null,
     "street": null,
     "streetNumber": null,
     "city": "Stockholm",
     "country": "Sweden",
-    "image": "https://www.visitstockholm.com/contentassets/ed0c6f9273e240e3915adb030a2eaaea/katanas_rectangle.jpg?preset=rectangle_small",
-    "moreInfoLink": "https://www.visitstockholm.com/events/exhibitions/katanas/",
+    "image": "https://www.visitstockholm.com/contentassets/c11cc142e4614d55b03606c88de4fd06/eventadmin68.jpg?preset=rectangle_small",
+    "moreInfoLink": "https://www.visitstockholm.com/events/music/new-years-concert-beethoven-symphony-no.-9/",
     "location": null,
     "extra": null,
     "extra2": null
   },
   {
-    "index": 40,
+    "index": 26,
     "month": "Jan",
     "day": "2",
     "title": "Form and colour – André Lhote and Swedish cubism",
@@ -738,7 +486,25 @@
     "extra2": null
   },
   {
-    "index": 41,
+    "index": 27,
+    "month": "Jan",
+    "day": "2",
+    "title": "Katanas",
+    "description": "Japanese katana swords have been the weapon of choice for samurais for nearly a thousand years. Imbued with almost mythical qualities the slightly curved blades have been a signifier in Japanese culture and has become a popular weapon of choice...",
+    "lat": null,
+    "lng": null,
+    "street": null,
+    "streetNumber": null,
+    "city": "Stockholm",
+    "country": "Sweden",
+    "image": "https://www.visitstockholm.com/contentassets/ed0c6f9273e240e3915adb030a2eaaea/katanas_rectangle.jpg?preset=rectangle_small",
+    "moreInfoLink": "https://www.visitstockholm.com/events/exhibitions/katanas/",
+    "location": null,
+    "extra": null,
+    "extra2": null
+  },
+  {
+    "index": 28,
     "month": "Jan",
     "day": "2",
     "title": "Christmas Holiday at Tekniska museet",
@@ -756,7 +522,7 @@
     "extra2": null
   },
   {
-    "index": 42,
+    "index": 29,
     "month": "Jan",
     "day": "2",
     "title": "Sleeping Beauty – fairy tale, dance and dreams",
@@ -774,7 +540,7 @@
     "extra2": null
   },
   {
-    "index": 43,
+    "index": 30,
     "month": "Jan",
     "day": "2",
     "title": "Gingerbread house exhibition at ArkDes",
@@ -792,7 +558,7 @@
     "extra2": null
   },
   {
-    "index": 44,
+    "index": 31,
     "month": "Jan",
     "day": "2",
     "title": "Invisible Exhibition",
@@ -810,7 +576,7 @@
     "extra2": null
   },
   {
-    "index": 45,
+    "index": 32,
     "month": "Jan",
     "day": "2",
     "title": "Louise Nevelson",
@@ -828,7 +594,7 @@
     "extra2": null
   },
   {
-    "index": 46,
+    "index": 33,
     "month": "Jan",
     "day": "2",
     "title": "Magic City - The Art of the Street",
@@ -846,7 +612,7 @@
     "extra2": null
   },
   {
-    "index": 47,
+    "index": 34,
     "month": "Jan",
     "day": "2",
     "title": "Norm Form",
@@ -864,7 +630,7 @@
     "extra2": null
   },
   {
-    "index": 48,
+    "index": 35,
     "month": "Jan",
     "day": "2",
     "title": "The Aerial Kit, Stories Beyond History",
@@ -882,7 +648,7 @@
     "extra2": null
   },
   {
-    "index": 49,
+    "index": 36,
     "month": "Jan",
     "day": "2",
     "title": "The Invisible Body",
@@ -900,7 +666,7 @@
     "extra2": null
   },
   {
-    "index": 50,
+    "index": 37,
     "month": "Jan",
     "day": "2",
     "title": "Bergman a la mode",
@@ -918,7 +684,7 @@
     "extra2": null
   },
   {
-    "index": 51,
+    "index": 38,
     "month": "Jan",
     "day": "2",
     "title": "Champagne at Spritmuseum",
@@ -936,7 +702,7 @@
     "extra2": null
   },
   {
-    "index": 52,
+    "index": 39,
     "month": "Jan",
     "day": "2",
     "title": "The story of a cultural heritage \"Palmyra\"",
@@ -954,7 +720,7 @@
     "extra2": null
   },
   {
-    "index": 53,
+    "index": 40,
     "month": "Jan",
     "day": "2",
     "title": "Under ytan - Bertil Vallien at the Spiritmuseum",
@@ -972,7 +738,7 @@
     "extra2": null
   },
   {
-    "index": 54,
+    "index": 41,
     "month": "Jan",
     "day": "2",
     "title": "Winter Games",
@@ -990,7 +756,7 @@
     "extra2": null
   },
   {
-    "index": 55,
+    "index": 42,
     "month": "Jan",
     "day": "2",
     "title": "Manipulate the World",
@@ -1008,7 +774,7 @@
     "extra2": null
   },
   {
-    "index": 56,
+    "index": 43,
     "month": "Jan",
     "day": "2",
     "title": "The photograhing human",
@@ -1026,7 +792,7 @@
     "extra2": null
   },
   {
-    "index": 57,
+    "index": 44,
     "month": "Jan",
     "day": "2",
     "title": "Uniform(t)",
@@ -1044,7 +810,61 @@
     "extra2": null
   },
   {
-    "index": 58,
+    "index": 45,
+    "month": "Jan",
+    "day": "2",
+    "title": "Sail a ship",
+    "description": "A new interactive adventure for children at the Vasa museum. Set sails, weigh anchor and steer a ship as in the 17th century. Collaboration is necessary to make the digital ship move forward. \n",
+    "lat": null,
+    "lng": null,
+    "street": null,
+    "streetNumber": null,
+    "city": "Stockholm",
+    "country": "Sweden",
+    "image": "https://www.visitstockholm.com/contentassets/1c2af327c0274b8aabdbaf28a7358dfa/sail-a-ship_rectangle.jpg?preset=rectangle_small",
+    "moreInfoLink": "https://www.visitstockholm.com/events/family/sail-a-ship/",
+    "location": null,
+    "extra": null,
+    "extra2": null
+  },
+  {
+    "index": 46,
+    "month": "Jan",
+    "day": "2",
+    "title": "Christmas at Junibacken",
+    "description": "Experience a magical Christmas at Junibacken! Get into the Christmas spirit among decorations and fragrant baking. Buy presents in the bookshop and take the Story Train across the snowy landscape at Lönneberga. And what would Christmas be...",
+    "lat": null,
+    "lng": null,
+    "street": null,
+    "streetNumber": null,
+    "city": "Stockholm",
+    "country": "Sweden",
+    "image": "https://www.visitstockholm.com/contentassets/92ce11c746934790bc9ac0a56c4c0cf4/eventadmin66.jpg?preset=rectangle_small",
+    "moreInfoLink": "https://www.visitstockholm.com/events/family/christmas-at-junibacken/",
+    "location": null,
+    "extra": null,
+    "extra2": null
+  },
+  {
+    "index": 47,
+    "month": "Jan",
+    "day": "2",
+    "title": "Folk Music 2.0 - Swedish hip hop",
+    "description": "Folk Music 2.0 - Swedish hip hop remix, an audio-visual experience about one of our most important cultural, is the largest exhibition about Swedish hip hop to date.\n",
+    "lat": null,
+    "lng": null,
+    "street": null,
+    "streetNumber": null,
+    "city": "Stockholm",
+    "country": "Sweden",
+    "image": "https://www.visitstockholm.com/contentassets/869fda8ab67045a3b9b71e81dc0c1579/eventadmin33.jpg?preset=rectangle_small",
+    "moreInfoLink": "https://www.visitstockholm.com/events/exhibitions/folk-music-2.0---swedish-hip-hop/",
+    "location": null,
+    "extra": null,
+    "extra2": null
+  },
+  {
+    "index": 48,
     "month": "Jan",
     "day": "2",
     "title": "Tingatinga - art from Tanzania",
@@ -1062,7 +882,7 @@
     "extra2": null
   },
   {
-    "index": 59,
+    "index": 49,
     "month": "Jan",
     "day": "2",
     "title": "Alexander Tallén – Art porcelain",
@@ -1080,7 +900,7 @@
     "extra2": null
   },
   {
-    "index": 60,
+    "index": 50,
     "month": "Jan",
     "day": "2",
     "title": "Annika Ekdahl – Woven Image Worlds",
@@ -1098,7 +918,7 @@
     "extra2": null
   },
   {
-    "index": 61,
+    "index": 51,
     "month": "Jan",
     "day": "2",
     "title": "Literary Rebellion",
@@ -1116,7 +936,7 @@
     "extra2": null
   },
   {
-    "index": 62,
+    "index": 52,
     "month": "Jan",
     "day": "2",
     "title": "Medieval Art",
@@ -1134,7 +954,7 @@
     "extra2": null
   },
   {
-    "index": 63,
+    "index": 53,
     "month": "Jan",
     "day": "2",
     "title": "Transit",
@@ -1152,7 +972,7 @@
     "extra2": null
   },
   {
-    "index": 64,
+    "index": 54,
     "month": "Jan",
     "day": "2",
     "title": "Cinderella",
@@ -1170,7 +990,7 @@
     "extra2": null
   },
   {
-    "index": 65,
+    "index": 55,
     "month": "Jan",
     "day": "2",
     "title": "Workshop: Manipulate the World",
@@ -1188,7 +1008,7 @@
     "extra2": null
   },
   {
-    "index": 66,
+    "index": 56,
     "month": "Jan",
     "day": "2",
     "title": "Christmas holidays at the Nobel Museum",
@@ -1206,7 +1026,7 @@
     "extra2": null
   },
   {
-    "index": 67,
+    "index": 57,
     "month": "Jan",
     "day": "3",
     "title": "Raoul Wallenberg room",
@@ -1224,7 +1044,7 @@
     "extra2": null
   },
   {
-    "index": 68,
+    "index": 58,
     "month": "Jan",
     "day": "3",
     "title": "War Games",
@@ -1242,7 +1062,7 @@
     "extra2": null
   },
   {
-    "index": 69,
+    "index": 59,
     "month": "Jan",
     "day": "3",
     "title": "Alice in Wonderland",
@@ -1260,7 +1080,7 @@
     "extra2": null
   },
   {
-    "index": 70,
+    "index": 60,
     "month": "Jan",
     "day": "3",
     "title": "Disney On Ice",
@@ -1278,7 +1098,7 @@
     "extra2": null
   },
   {
-    "index": 71,
+    "index": 61,
     "month": "Jan",
     "day": "3",
     "title": "AIK Hockey - IK Oskarshamn",
@@ -1296,7 +1116,7 @@
     "extra2": null
   },
   {
-    "index": 72,
+    "index": 62,
     "month": "Jan",
     "day": "4",
     "title": "Cirkus Cirkör - Limits",
@@ -1314,7 +1134,7 @@
     "extra2": null
   },
   {
-    "index": 73,
+    "index": 63,
     "month": "Jan",
     "day": "5",
     "title": "Twelfth Night Concert",
@@ -1332,7 +1152,7 @@
     "extra2": null
   },
   {
-    "index": 74,
+    "index": 64,
     "month": "Jan",
     "day": "5",
     "title": "Snowshoeing in wild Stockholm",
@@ -1350,7 +1170,7 @@
     "extra2": null
   },
   {
-    "index": 75,
+    "index": 65,
     "month": "Jan",
     "day": "5",
     "title": "Epiphany Concert with the Royal Stockholm Philharmonic Orchestra",
@@ -1368,7 +1188,7 @@
     "extra2": null
   },
   {
-    "index": 76,
+    "index": 66,
     "month": "Jan",
     "day": "6",
     "title": "A Day on the Ice",
@@ -1386,7 +1206,7 @@
     "extra2": null
   },
   {
-    "index": 77,
+    "index": 67,
     "month": "Jan",
     "day": "6",
     "title": "Millennium tour",
@@ -1404,7 +1224,25 @@
     "extra2": null
   },
   {
-    "index": 78,
+    "index": 68,
+    "month": "Jan",
+    "day": "6",
+    "title": "Brunch cruise on board S/S Stockholm",
+    "description": "At noon every Saturday and Sunday S/S Stockholm departs for a three-hour brunch cruise in Stockholm archipelago. The buffet is filled with traditional dishes made of Swedish primary produce, cold and warm meats, various salads and bread. Make sure...",
+    "lat": null,
+    "lng": null,
+    "street": null,
+    "streetNumber": null,
+    "city": "Stockholm",
+    "country": "Sweden",
+    "image": "https://www.visitstockholm.com/contentassets/6e77ec1e1e5e42c9b026352d385689a6/classic-tour-to-vaxholm--the-archipelago-capital_rectangle.jpg?preset=rectangle_small",
+    "moreInfoLink": "https://www.visitstockholm.com/events/guided-tours/classic-tour-to-vaxholm--the-archipelago-capital/",
+    "location": null,
+    "extra": null,
+    "extra2": null
+  },
+  {
+    "index": 69,
     "month": "Jan",
     "day": "6",
     "title": "Shine, star!",
@@ -1422,7 +1260,7 @@
     "extra2": null
   },
   {
-    "index": 79,
+    "index": 70,
     "month": "Jan",
     "day": "6",
     "title": "Djurgården Ice Hockey",
@@ -1440,7 +1278,7 @@
     "extra2": null
   },
   {
-    "index": 80,
+    "index": 71,
     "month": "Jan",
     "day": "6",
     "title": "Twelfth Day Concert in the German Church",
@@ -1458,7 +1296,7 @@
     "extra2": null
   },
   {
-    "index": 81,
+    "index": 72,
     "month": "Jan",
     "day": "7",
     "title": "Designing for Bamse, Barbapappa or Beyoncé",
@@ -1476,7 +1314,7 @@
     "extra2": null
   },
   {
-    "index": 82,
+    "index": 73,
     "month": "Jan",
     "day": "8",
     "title": "Intro ice skating tour on natural ice",
@@ -1494,7 +1332,7 @@
     "extra2": null
   },
   {
-    "index": 83,
+    "index": 74,
     "month": "Jan",
     "day": "8",
     "title": "Young Swedish Design 2018",
@@ -1512,7 +1350,7 @@
     "extra2": null
   },
   {
-    "index": 84,
+    "index": 75,
     "month": "Jan",
     "day": "10",
     "title": "Fall out Boy",
@@ -1530,7 +1368,7 @@
     "extra2": null
   },
   {
-    "index": 85,
+    "index": 76,
     "month": "Jan",
     "day": "10",
     "title": "AIK Hockey - BIK Karlskoga",
@@ -1548,7 +1386,7 @@
     "extra2": null
   },
   {
-    "index": 86,
+    "index": 77,
     "month": "Jan",
     "day": "11",
     "title": "Korngold's Violin Concerto",
@@ -1566,7 +1404,7 @@
     "extra2": null
   },
   {
-    "index": 87,
+    "index": 78,
     "month": "Jan",
     "day": "12",
     "title": "On The Verge",
@@ -1584,7 +1422,7 @@
     "extra2": null
   },
   {
-    "index": 88,
+    "index": 79,
     "month": "Jan",
     "day": "12",
     "title": "The Spring Salon 2018",
@@ -1602,7 +1440,7 @@
     "extra2": null
   },
   {
-    "index": 89,
+    "index": 80,
     "month": "Jan",
     "day": "13",
     "title": "Jim Jefferies - The Unusual Punishment tour",
@@ -1620,7 +1458,7 @@
     "extra2": null
   },
   {
-    "index": 90,
+    "index": 81,
     "month": "Jan",
     "day": "13",
     "title": "Open house at The Stockholm Concert Hall",
@@ -1638,7 +1476,7 @@
     "extra2": null
   },
   {
-    "index": 91,
+    "index": 82,
     "month": "Jan",
     "day": "17",
     "title": "Formex",
@@ -1656,7 +1494,7 @@
     "extra2": null
   },
   {
-    "index": 92,
+    "index": 83,
     "month": "Jan",
     "day": "17",
     "title": "Jim Gaffigan",
@@ -1674,7 +1512,7 @@
     "extra2": null
   },
   {
-    "index": 93,
+    "index": 84,
     "month": "Jan",
     "day": "18",
     "title": "Riccardo Muti conducts",
@@ -1692,7 +1530,7 @@
     "extra2": null
   },
   {
-    "index": 94,
+    "index": 85,
     "month": "Jan",
     "day": "18",
     "title": "Iron & Wine",
@@ -1710,7 +1548,7 @@
     "extra2": null
   },
   {
-    "index": 95,
+    "index": 86,
     "month": "Jan",
     "day": "19",
     "title": "Soup concert with a world premiere",
@@ -1728,7 +1566,7 @@
     "extra2": null
   },
   {
-    "index": 96,
+    "index": 87,
     "month": "Jan",
     "day": "19",
     "title": "Couperin, Guillou and Cochereau – French music for organ with Håkan Dahlén.",
@@ -1746,7 +1584,7 @@
     "extra2": null
   },
   {
-    "index": 97,
+    "index": 88,
     "month": "Jan",
     "day": "21",
     "title": "Stockholm Fashion Week 2018",
@@ -1764,7 +1602,7 @@
     "extra2": null
   },
   {
-    "index": 98,
+    "index": 89,
     "month": "Jan",
     "day": "21",
     "title": "Exhibition Another Story, Skeppsholmen",
@@ -1782,7 +1620,7 @@
     "extra2": null
   },
   {
-    "index": 99,
+    "index": 90,
     "month": "Jan",
     "day": "21",
     "title": "The Philharmonic Up Close - Chamber music trios from the Romantic era to today",
@@ -1800,7 +1638,7 @@
     "extra2": null
   },
   {
-    "index": 100,
+    "index": 91,
     "month": "Jan",
     "day": "24",
     "title": "Lied Concert with Karnéus and Weinius",
@@ -1818,7 +1656,7 @@
     "extra2": null
   },
   {
-    "index": 101,
+    "index": 92,
     "month": "Jan",
     "day": "25",
     "title": "Guitars Of The Stars",
@@ -1836,7 +1674,7 @@
     "extra2": null
   },
   {
-    "index": 102,
+    "index": 93,
     "month": "Jan",
     "day": "25",
     "title": "Beethoven and Sibelius ",
@@ -1854,7 +1692,7 @@
     "extra2": null
   },
   {
-    "index": 103,
+    "index": 94,
     "month": "Jan",
     "day": "25",
     "title": "Jake Bugg",
@@ -1872,7 +1710,7 @@
     "extra2": null
   },
   {
-    "index": 104,
+    "index": 95,
     "month": "Jan",
     "day": "25",
     "title": "Jake Bugg",
@@ -1890,7 +1728,7 @@
     "extra2": null
   },
   {
-    "index": 105,
+    "index": 96,
     "month": "Jan",
     "day": "26",
     "title": "The secrets of couture",
@@ -1908,7 +1746,7 @@
     "extra2": null
   },
   {
-    "index": 106,
+    "index": 97,
     "month": "Jan",
     "day": "26",
     "title": "Dermot Kennedy",
@@ -1926,7 +1764,7 @@
     "extra2": null
   },
   {
-    "index": 107,
+    "index": 98,
     "month": "Jan",
     "day": "27",
     "title": "Bo Kaspers Orkester, Cirkus",
@@ -1944,7 +1782,7 @@
     "extra2": null
   },
   {
-    "index": 108,
+    "index": 99,
     "month": "Jan",
     "day": "27",
     "title": "Wedding Fair Stockholm 2018",
@@ -1962,7 +1800,7 @@
     "extra2": null
   },
   {
-    "index": 109,
+    "index": 100,
     "month": "Jan",
     "day": "27",
     "title": "Salam Pakistan Festival",
@@ -1980,7 +1818,7 @@
     "extra2": null
   },
   {
-    "index": 110,
+    "index": 101,
     "month": "Jan",
     "day": "27",
     "title": "Opera at the cinema: Tosca",
@@ -1998,7 +1836,7 @@
     "extra2": null
   },
   {
-    "index": 111,
+    "index": 102,
     "month": "Jan",
     "day": "28",
     "title": "Piano Recital with Igor Levit",
@@ -2016,7 +1854,7 @@
     "extra2": null
   },
   {
-    "index": 112,
+    "index": 103,
     "month": "Jan",
     "day": "28",
     "title": "Saxophone revel",
@@ -2034,7 +1872,7 @@
     "extra2": null
   },
   {
-    "index": 113,
+    "index": 104,
     "month": "Jan",
     "day": "28",
     "title": "alt-J",
@@ -2052,7 +1890,7 @@
     "extra2": null
   },
   {
-    "index": 114,
+    "index": 105,
     "month": "Jan",
     "day": "29",
     "title": "Nalen Rotary Jazz party",
@@ -2070,7 +1908,7 @@
     "extra2": null
   },
   {
-    "index": 115,
+    "index": 106,
     "month": "Jan",
     "day": "29",
     "title": "Monday at last with Naimark-Meyers and Thedéen",
@@ -2088,7 +1926,7 @@
     "extra2": null
   },
   {
-    "index": 116,
+    "index": 107,
     "month": "Jan",
     "day": "30",
     "title": "Audi FIS Ski World Cup Stockholm",
@@ -2106,7 +1944,7 @@
     "extra2": null
   },
   {
-    "index": 117,
+    "index": 108,
     "month": "Jan",
     "day": "30",
     "title": "Mystique: Among the Shadows",
@@ -2124,7 +1962,7 @@
     "extra2": null
   },
   {
-    "index": 118,
+    "index": 109,
     "month": "Jan",
     "day": "31",
     "title": "Beethoven: Power plays",
@@ -2142,7 +1980,7 @@
     "extra2": null
   },
   {
-    "index": 119,
+    "index": 110,
     "month": "Jan",
     "day": "31",
     "title": "Swan Lake - The Russian National Ballet",
@@ -2160,7 +1998,7 @@
     "extra2": null
   },
   {
-    "index": 120,
+    "index": 111,
     "month": "Feb",
     "day": "1",
     "title": "Khalid, Nobelberget",
@@ -2178,7 +2016,7 @@
     "extra2": null
   },
   {
-    "index": 121,
+    "index": 112,
     "month": "Feb",
     "day": "1",
     "title": "Embedded in My Heart – A dream fantasy inspired by the life of Antonia Bembo.",
@@ -2196,7 +2034,7 @@
     "extra2": null
   },
   {
-    "index": 122,
+    "index": 113,
     "month": "Feb",
     "day": "2",
     "title": "Soup concert with cello and piano",
@@ -2214,7 +2052,7 @@
     "extra2": null
   },
   {
-    "index": 123,
+    "index": 114,
     "month": "Feb",
     "day": "2",
     "title": "Randy Newman",
@@ -2232,7 +2070,7 @@
     "extra2": null
   },
   {
-    "index": 124,
+    "index": 115,
     "month": "Feb",
     "day": "3",
     "title": "When Japan came to Värmland: Japonism of Rackstad artists",
@@ -2250,7 +2088,7 @@
     "extra2": null
   },
   {
-    "index": 125,
+    "index": 116,
     "month": "Feb",
     "day": "3",
     "title": "Opera at the Cinema: Cinderella",
@@ -2268,7 +2106,7 @@
     "extra2": null
   },
   {
-    "index": 126,
+    "index": 117,
     "month": "Feb",
     "day": "3",
     "title": "Quatuor Ébène - French string quartet in music by Beethoven and Bartók",
@@ -2286,7 +2124,7 @@
     "extra2": null
   },
   {
-    "index": 127,
+    "index": 118,
     "month": "Feb",
     "day": "3",
     "title": "Motionless in White",
@@ -2304,7 +2142,7 @@
     "extra2": null
   },
   {
-    "index": 128,
+    "index": 119,
     "month": "Feb",
     "day": "5",
     "title": "Stockholm Design Week",
@@ -2322,7 +2160,7 @@
     "extra2": null
   },
   {
-    "index": 129,
+    "index": 120,
     "month": "Feb",
     "day": "5",
     "title": "QX Gaygala 2018",
@@ -2340,7 +2178,7 @@
     "extra2": null
   },
   {
-    "index": 130,
+    "index": 121,
     "month": "Feb",
     "day": "6",
     "title": "Stockholm Furniture & Light Fair",
@@ -2358,7 +2196,7 @@
     "extra2": null
   },
   {
-    "index": 131,
+    "index": 122,
     "month": "Feb",
     "day": "6",
     "title": "Dropkick Murphys + Flogging Molly + Glen Matlock",
@@ -2376,7 +2214,7 @@
     "extra2": null
   },
   {
-    "index": 132,
+    "index": 123,
     "month": "Feb",
     "day": "7",
     "title": "6lack",
@@ -2394,7 +2232,7 @@
     "extra2": null
   },
   {
-    "index": 133,
+    "index": 124,
     "month": "Feb",
     "day": "7",
     "title": "Kygo",
@@ -2412,7 +2250,7 @@
     "extra2": null
   },
   {
-    "index": 134,
+    "index": 125,
     "month": "Feb",
     "day": "9",
     "title": "The Nordic Yoga Conference",
@@ -2430,7 +2268,7 @@
     "extra2": null
   },
   {
-    "index": 135,
+    "index": 126,
     "month": "Feb",
     "day": "9",
     "title": "Jan Martens - The dog days are over",
@@ -2448,7 +2286,7 @@
     "extra2": null
   },
   {
-    "index": 136,
+    "index": 127,
     "month": "Feb",
     "day": "10",
     "title": "The Merry Widow",
@@ -2466,7 +2304,7 @@
     "extra2": null
   },
   {
-    "index": 137,
+    "index": 128,
     "month": "Feb",
     "day": "11",
     "title": "Helmut Lotti",
@@ -2484,7 +2322,7 @@
     "extra2": null
   },
   {
-    "index": 138,
+    "index": 129,
     "month": "Feb",
     "day": "12",
     "title": "Michael Jackson - Thriller Live",
@@ -2502,7 +2340,7 @@
     "extra2": null
   },
   {
-    "index": 139,
+    "index": 130,
     "month": "Feb",
     "day": "13",
     "title": "Miss May I",
@@ -2520,7 +2358,7 @@
     "extra2": null
   },
   {
-    "index": 140,
+    "index": 131,
     "month": "Feb",
     "day": "13",
     "title": "The Hunna + Coasts",
@@ -2538,7 +2376,7 @@
     "extra2": null
   },
   {
-    "index": 141,
+    "index": 132,
     "month": "Feb",
     "day": "14",
     "title": "Salieri vs Mozart",
@@ -2556,7 +2394,7 @@
     "extra2": null
   },
   {
-    "index": 142,
+    "index": 133,
     "month": "Feb",
     "day": "14",
     "title": "TOTO",
@@ -2574,7 +2412,7 @@
     "extra2": null
   },
   {
-    "index": 143,
+    "index": 134,
     "month": "Feb",
     "day": "14",
     "title": "Basketball: Sweden - Croatia",
@@ -2592,7 +2430,7 @@
     "extra2": null
   },
   {
-    "index": 144,
+    "index": 135,
     "month": "Feb",
     "day": "14",
     "title": "August Alsina",
@@ -2610,7 +2448,7 @@
     "extra2": null
   },
   {
-    "index": 145,
+    "index": 136,
     "month": "Feb",
     "day": "15",
     "title": "Lady Gaga",
@@ -2628,7 +2466,7 @@
     "extra2": null
   },
   {
-    "index": 146,
+    "index": 137,
     "month": "Feb",
     "day": "16",
     "title": "Cheese festival",
@@ -2646,7 +2484,7 @@
     "extra2": null
   },
   {
-    "index": 147,
+    "index": 138,
     "month": "Feb",
     "day": "16",
     "title": "Antikmässan - Stockholm Antiques Fair",
@@ -2664,7 +2502,7 @@
     "extra2": null
   },
   {
-    "index": 148,
+    "index": 139,
     "month": "Feb",
     "day": "16",
     "title": "Marcus & Martinus",
@@ -2682,7 +2520,7 @@
     "extra2": null
   },
   {
-    "index": 149,
+    "index": 140,
     "month": "Feb",
     "day": "17",
     "title": "Arena Run",
@@ -2700,7 +2538,7 @@
     "extra2": null
   },
   {
-    "index": 150,
+    "index": 141,
     "month": "Feb",
     "day": "17",
     "title": "Panorama World Festival 2018",
@@ -2718,7 +2556,7 @@
     "extra2": null
   },
   {
-    "index": 151,
+    "index": 142,
     "month": "Feb",
     "day": "17",
     "title": "Bröllopsfeber Weeding Fair",
@@ -2736,7 +2574,7 @@
     "extra2": null
   },
   {
-    "index": 152,
+    "index": 143,
     "month": "Feb",
     "day": "17",
     "title": "That's Entertainment - In Sinatra's footsteps",
@@ -2754,7 +2592,7 @@
     "extra2": null
   },
   {
-    "index": 153,
+    "index": 144,
     "month": "Feb",
     "day": "17",
     "title": "Ehsan Khaje Amiri",
@@ -2772,7 +2610,7 @@
     "extra2": null
   },
   {
-    "index": 154,
+    "index": 145,
     "month": "Feb",
     "day": "17",
     "title": "Bernhoft & The Fashion Bruises",
@@ -2790,7 +2628,7 @@
     "extra2": null
   },
   {
-    "index": 155,
+    "index": 146,
     "month": "Feb",
     "day": "20",
     "title": "Jhené Aiko",
@@ -2808,7 +2646,7 @@
     "extra2": null
   },
   {
-    "index": 156,
+    "index": 147,
     "month": "Feb",
     "day": "20",
     "title": "Sweden interprets Bowie",
@@ -2826,7 +2664,7 @@
     "extra2": null
   },
   {
-    "index": 157,
+    "index": 148,
     "month": "Feb",
     "day": "22",
     "title": "Akram Khan - Until the lions",
@@ -2844,7 +2682,7 @@
     "extra2": null
   },
   {
-    "index": 158,
+    "index": 149,
     "month": "Feb",
     "day": "23",
     "title": "The Sewing and Craft's Fair",
@@ -2862,7 +2700,7 @@
     "extra2": null
   },
   {
-    "index": 159,
+    "index": 150,
     "month": "Feb",
     "day": "23",
     "title": "World Cup Qualifier in Basketball, Sweden - Turkey",
@@ -2880,7 +2718,7 @@
     "extra2": null
   },
   {
-    "index": 160,
+    "index": 151,
     "month": "Feb",
     "day": "23",
     "title": "Deborah Brown & Bobby Watson ",
@@ -2898,7 +2736,7 @@
     "extra2": null
   },
   {
-    "index": 161,
+    "index": 152,
     "month": "Feb",
     "day": "23",
     "title": "World Cup Qualifier: Sweden - Turkey (Basketball)",
@@ -2916,7 +2754,7 @@
     "extra2": null
   },
   {
-    "index": 162,
+    "index": 153,
     "month": "Feb",
     "day": "24",
     "title": "Aida",
@@ -2934,7 +2772,7 @@
     "extra2": null
   },
   {
-    "index": 163,
+    "index": 154,
     "month": "Feb",
     "day": "24",
     "title": "Hollywood Undead",
@@ -2952,7 +2790,7 @@
     "extra2": null
   },
   {
-    "index": 164,
+    "index": 155,
     "month": "Feb",
     "day": "24",
     "title": "The Killers",
@@ -2970,7 +2808,7 @@
     "extra2": null
   },
   {
-    "index": 165,
+    "index": 156,
     "month": "Feb",
     "day": "26",
     "title": "Steven Wilson",
@@ -2988,7 +2826,7 @@
     "extra2": null
   },
   {
-    "index": 166,
+    "index": 157,
     "month": "Feb",
     "day": "27",
     "title": "Moneybrother",
@@ -3006,7 +2844,7 @@
     "extra2": null
   },
   {
-    "index": 167,
+    "index": 158,
     "month": "Feb",
     "day": "27",
     "title": "Planet Earth II",
@@ -3024,7 +2862,7 @@
     "extra2": null
   },
   {
-    "index": 168,
+    "index": 159,
     "month": "Mar",
     "day": "1",
     "title": "Partynextdoor",
@@ -3042,7 +2880,7 @@
     "extra2": null
   },
   {
-    "index": 169,
+    "index": 160,
     "month": "Mar",
     "day": "2",
     "title": "The Nutcracker Reloaded",
@@ -3060,7 +2898,7 @@
     "extra2": null
   },
   {
-    "index": 170,
+    "index": 161,
     "month": "Mar",
     "day": "2",
     "title": "Allt för sjön Boat Expo",
@@ -3078,7 +2916,7 @@
     "extra2": null
   },
   {
-    "index": 171,
+    "index": 162,
     "month": "Mar",
     "day": "3",
     "title": "Kendrick Lamar",
@@ -3096,7 +2934,7 @@
     "extra2": null
   },
   {
-    "index": 172,
+    "index": 163,
     "month": "Mar",
     "day": "4",
     "title": "100 Point Challenge",
@@ -3114,7 +2952,7 @@
     "extra2": null
   },
   {
-    "index": 173,
+    "index": 164,
     "month": "Mar",
     "day": "5",
     "title": "Tempo Documentary Festival",
@@ -3132,7 +2970,7 @@
     "extra2": null
   },
   {
-    "index": 174,
+    "index": 165,
     "month": "Mar",
     "day": "5",
     "title": "Ukulele Orchestra of Great Britain",
@@ -3150,7 +2988,7 @@
     "extra2": null
   },
   {
-    "index": 175,
+    "index": 166,
     "month": "Mar",
     "day": "5",
     "title": "The Script",
@@ -3168,7 +3006,7 @@
     "extra2": null
   },
   {
-    "index": 176,
+    "index": 167,
     "month": "Mar",
     "day": "6",
     "title": "Mithkal Alzghair - Displacement",
@@ -3186,7 +3024,7 @@
     "extra2": null
   },
   {
-    "index": 177,
+    "index": 168,
     "month": "Mar",
     "day": "6",
     "title": "Nationalteaterns Rockorkester",
@@ -3204,7 +3042,7 @@
     "extra2": null
   },
   {
-    "index": 178,
+    "index": 169,
     "month": "Mar",
     "day": "9",
     "title": "Melodifestivalen 2018 - Qualification final to Eurovision Song Contest",
@@ -3222,7 +3060,7 @@
     "extra2": null
   },
   {
-    "index": 179,
+    "index": 170,
     "month": "Mar",
     "day": "9",
     "title": "Stockholm Photo Fair",
@@ -3240,7 +3078,7 @@
     "extra2": null
   },
   {
-    "index": 180,
+    "index": 171,
     "month": "Mar",
     "day": "9",
     "title": "Explore - The Swedish Outdoor Expo",
@@ -3258,7 +3096,7 @@
     "extra2": null
   },
   {
-    "index": 181,
+    "index": 172,
     "month": "Mar",
     "day": "9",
     "title": "Turbonegro",
@@ -3276,7 +3114,7 @@
     "extra2": null
   },
   {
-    "index": 182,
+    "index": 173,
     "month": "Mar",
     "day": "9",
     "title": "The Chainsmokers",
@@ -3294,7 +3132,7 @@
     "extra2": null
   },
   {
-    "index": 183,
+    "index": 174,
     "month": "Mar",
     "day": "10",
     "title": "Weaving Silk",
@@ -3312,7 +3150,7 @@
     "extra2": null
   },
   {
-    "index": 184,
+    "index": 175,
     "month": "Mar",
     "day": "10",
     "title": "Mustasch & Hardcore Superstar",
@@ -3330,7 +3168,7 @@
     "extra2": null
   },
   {
-    "index": 185,
+    "index": 176,
     "month": "Mar",
     "day": "10",
     "title": "Joan Baez",
@@ -3348,7 +3186,7 @@
     "extra2": null
   },
   {
-    "index": 186,
+    "index": 177,
     "month": "Mar",
     "day": "11",
     "title": "Chris Robinson Brotherhood",
@@ -3366,7 +3204,7 @@
     "extra2": null
   },
   {
-    "index": 187,
+    "index": 178,
     "month": "Mar",
     "day": "14",
     "title": "Trivium",
@@ -3384,7 +3222,7 @@
     "extra2": null
   },
   {
-    "index": 188,
+    "index": 179,
     "month": "Mar",
     "day": "15",
     "title": "Digital power and manipulation",
@@ -3402,7 +3240,7 @@
     "extra2": null
   },
   {
-    "index": 189,
+    "index": 180,
     "month": "Mar",
     "day": "15",
     "title": "Apocalyptica",
@@ -3420,7 +3258,7 @@
     "extra2": null
   },
   {
-    "index": 190,
+    "index": 181,
     "month": "Mar",
     "day": "16",
     "title": "Cycle Fair",
@@ -3438,7 +3276,7 @@
     "extra2": null
   },
   {
-    "index": 191,
+    "index": 182,
     "month": "Mar",
     "day": "16",
     "title": "Magnum",
@@ -3456,7 +3294,7 @@
     "extra2": null
   },
   {
-    "index": 192,
+    "index": 183,
     "month": "Mar",
     "day": "16",
     "title": "First Aid Kit",
@@ -3474,7 +3312,7 @@
     "extra2": null
   },
   {
-    "index": 193,
+    "index": 184,
     "month": "Mar",
     "day": "16",
     "title": "Big Band Flute",
@@ -3492,7 +3330,7 @@
     "extra2": null
   },
   {
-    "index": 194,
+    "index": 185,
     "month": "Mar",
     "day": "18",
     "title": "Harry Styles",
@@ -3510,7 +3348,7 @@
     "extra2": null
   },
   {
-    "index": 195,
+    "index": 186,
     "month": "Mar",
     "day": "19",
     "title": "D’Angelo",
@@ -3528,7 +3366,7 @@
     "extra2": null
   },
   {
-    "index": 196,
+    "index": 187,
     "month": "Mar",
     "day": "19",
     "title": "Desiigner",
@@ -3546,7 +3384,7 @@
     "extra2": null
   },
   {
-    "index": 197,
+    "index": 188,
     "month": "Mar",
     "day": "20",
     "title": "Andrew Lloyd Webber Gala",
@@ -3564,7 +3402,7 @@
     "extra2": null
   },
   {
-    "index": 198,
+    "index": 189,
     "month": "Mar",
     "day": "21",
     "title": "Zero Visibility Corp - Again",
@@ -3582,7 +3420,7 @@
     "extra2": null
   },
   {
-    "index": 199,
+    "index": 190,
     "month": "Mar",
     "day": "22",
     "title": "The Nordic Gardens",
@@ -3600,7 +3438,7 @@
     "extra2": null
   },
   {
-    "index": 200,
+    "index": 191,
     "month": "Mar",
     "day": "23",
     "title": "Bloomsbury Spirit",
@@ -3618,7 +3456,7 @@
     "extra2": null
   },
   {
-    "index": 201,
+    "index": 192,
     "month": "Mar",
     "day": "23",
     "title": "ASICS Premiärmilen",
@@ -3636,7 +3474,7 @@
     "extra2": null
   },
   {
-    "index": 202,
+    "index": 193,
     "month": "Mar",
     "day": "23",
     "title": "C/ompany & Shintaro Oue - BO.LE.RO",
@@ -3654,7 +3492,7 @@
     "extra2": null
   },
   {
-    "index": 203,
+    "index": 194,
     "month": "Mar",
     "day": "23",
     "title": "Rejjie Snow",
@@ -3672,7 +3510,7 @@
     "extra2": null
   },
   {
-    "index": 204,
+    "index": 195,
     "month": "Mar",
     "day": "24",
     "title": "Football: Sverige - Chile",
@@ -3690,7 +3528,7 @@
     "extra2": null
   },
   {
-    "index": 205,
+    "index": 196,
     "month": "Mar",
     "day": "28",
     "title": "Rhye",
@@ -3708,7 +3546,7 @@
     "extra2": null
   },
   {
-    "index": 206,
+    "index": 197,
     "month": "Mar",
     "day": "29",
     "title": "Editors, Berns",
@@ -3726,7 +3564,7 @@
     "extra2": null
   },
   {
-    "index": 207,
+    "index": 198,
     "month": "Mar",
     "day": "30",
     "title": "Nathaniel Rateliff och The Night Sweats",
@@ -3744,7 +3582,7 @@
     "extra2": null
   },
   {
-    "index": 208,
+    "index": 199,
     "month": "Mar",
     "day": "30",
     "title": "Majid Jordan, Nobelberget",
@@ -3762,7 +3600,7 @@
     "extra2": null
   },
   {
-    "index": 209,
+    "index": 200,
     "month": "Mar",
     "day": "31",
     "title": "Stockholm Malt, Mat & Destillat",
@@ -3780,7 +3618,7 @@
     "extra2": null
   },
   {
-    "index": 210,
+    "index": 201,
     "month": "Apr",
     "day": "4",
     "title": "Ludovico Einaudi",
@@ -3798,7 +3636,7 @@
     "extra2": null
   },
   {
-    "index": 211,
+    "index": 202,
     "month": "Apr",
     "day": "6",
     "title": "Segway City Tour",
@@ -3816,7 +3654,7 @@
     "extra2": null
   },
   {
-    "index": 212,
+    "index": 203,
     "month": "Apr",
     "day": "6",
     "title": "Stockholm Garden Fair",
@@ -3834,7 +3672,7 @@
     "extra2": null
   },
   {
-    "index": 213,
+    "index": 204,
     "month": "Apr",
     "day": "6",
     "title": "Stockholm at a Glance Bike Tour",
@@ -3852,7 +3690,7 @@
     "extra2": null
   },
   {
-    "index": 214,
+    "index": 205,
     "month": "Apr",
     "day": "6",
     "title": "Cristiana Morganti - Jessica and me",
@@ -3870,7 +3708,7 @@
     "extra2": null
   },
   {
-    "index": 215,
+    "index": 206,
     "month": "Apr",
     "day": "6",
     "title": "World synchronized skating championships 2018",
@@ -3888,7 +3726,7 @@
     "extra2": null
   },
   {
-    "index": 216,
+    "index": 207,
     "month": "Apr",
     "day": "7",
     "title": "The Mystical Power of Shaolin Kung Fu",
@@ -3906,7 +3744,7 @@
     "extra2": null
   },
   {
-    "index": 217,
+    "index": 208,
     "month": "Apr",
     "day": "11",
     "title": "Goodspeed You! Black Emperor",
@@ -3924,7 +3762,7 @@
     "extra2": null
   },
   {
-    "index": 218,
+    "index": 209,
     "month": "Apr",
     "day": "13",
     "title": "Market Art Fair",
@@ -3942,7 +3780,7 @@
     "extra2": null
   },
   {
-    "index": 219,
+    "index": 210,
     "month": "Apr",
     "day": "13",
     "title": "NF",
@@ -3960,7 +3798,7 @@
     "extra2": null
   },
   {
-    "index": 220,
+    "index": 211,
     "month": "Apr",
     "day": "14",
     "title": "The Stockholm Wooden Bike Tour ",
@@ -3978,7 +3816,7 @@
     "extra2": null
   },
   {
-    "index": 221,
+    "index": 212,
     "month": "Apr",
     "day": "14",
     "title": "Stockholm Liquorice festival",
@@ -3996,7 +3834,7 @@
     "extra2": null
   },
   {
-    "index": 222,
+    "index": 213,
     "month": "Apr",
     "day": "14",
     "title": "Slick Rick",
@@ -4014,7 +3852,7 @@
     "extra2": null
   },
   {
-    "index": 223,
+    "index": 214,
     "month": "Apr",
     "day": "19",
     "title": "Sam Smith",
@@ -4032,7 +3870,7 @@
     "extra2": null
   },
   {
-    "index": 224,
+    "index": 215,
     "month": "Apr",
     "day": "20",
     "title": "Dance for me - Dance for me",
@@ -4050,7 +3888,7 @@
     "extra2": null
   },
   {
-    "index": 225,
+    "index": 216,
     "month": "Apr",
     "day": "20",
     "title": "Scott Bradlee’s Postmodern Jukebox",
@@ -4068,7 +3906,7 @@
     "extra2": null
   },
   {
-    "index": 226,
+    "index": 217,
     "month": "Apr",
     "day": "21",
     "title": "RIB Speed Boat Tour",
@@ -4086,7 +3924,7 @@
     "extra2": null
   },
   {
-    "index": 227,
+    "index": 218,
     "month": "Apr",
     "day": "21",
     "title": "Swedish Floorball League Finals",
@@ -4104,7 +3942,7 @@
     "extra2": null
   },
   {
-    "index": 228,
+    "index": 219,
     "month": "Apr",
     "day": "22",
     "title": "30 Seconds to Mars",
@@ -4122,7 +3960,7 @@
     "extra2": null
   },
   {
-    "index": 229,
+    "index": 220,
     "month": "Apr",
     "day": "24",
     "title": "Emanuel Gat - Dance Sunny",
@@ -4140,7 +3978,7 @@
     "extra2": null
   },
   {
-    "index": 230,
+    "index": 221,
     "month": "Apr",
     "day": "24",
     "title": "Dua Lipa",
@@ -4158,7 +3996,7 @@
     "extra2": null
   },
   {
-    "index": 231,
+    "index": 222,
     "month": "Apr",
     "day": "25",
     "title": "Ellen Galagher",
@@ -4176,7 +4014,7 @@
     "extra2": null
   },
   {
-    "index": 232,
+    "index": 223,
     "month": "Apr",
     "day": "25",
     "title": "Niall Horan",
@@ -4194,7 +4032,7 @@
     "extra2": null
   },
   {
-    "index": 233,
+    "index": 224,
     "month": "Apr",
     "day": "26",
     "title": "Imagine Dragons",
@@ -4212,7 +4050,7 @@
     "extra2": null
   },
   {
-    "index": 234,
+    "index": 225,
     "month": "Apr",
     "day": "29",
     "title": "Mountain Biking on Single Track",
@@ -4230,7 +4068,7 @@
     "extra2": null
   },
   {
-    "index": 235,
+    "index": 226,
     "month": "Apr",
     "day": "29",
     "title": "Bryan Adams",
@@ -4248,7 +4086,7 @@
     "extra2": null
   },
   {
-    "index": 236,
+    "index": 227,
     "month": "May",
     "day": "5",
     "title": "Södermalm Bike Tour",
@@ -4266,7 +4104,7 @@
     "extra2": null
   },
   {
-    "index": 237,
+    "index": 228,
     "month": "May",
     "day": "5",
     "title": "Iconfest - influencer festival",
@@ -4284,7 +4122,7 @@
     "extra2": null
   },
   {
-    "index": 238,
+    "index": 229,
     "month": "May",
     "day": "5",
     "title": "Metallica",
@@ -4302,7 +4140,7 @@
     "extra2": null
   },
   {
-    "index": 239,
+    "index": 230,
     "month": "May",
     "day": "6",
     "title": "Macklemore, Gröna Lund",
@@ -4320,7 +4158,7 @@
     "extra2": null
   },
   {
-    "index": 240,
+    "index": 231,
     "month": "May",
     "day": "9",
     "title": "Gregory Porter ",
@@ -4338,7 +4176,7 @@
     "extra2": null
   },
   {
-    "index": 241,
+    "index": 232,
     "month": "May",
     "day": "10",
     "title": "Eden",
@@ -4356,7 +4194,7 @@
     "extra2": null
   },
   {
-    "index": 242,
+    "index": 233,
     "month": "May",
     "day": "11",
     "title": "My Favorite Murder Live",
@@ -4374,7 +4212,7 @@
     "extra2": null
   },
   {
-    "index": 243,
+    "index": 234,
     "month": "May",
     "day": "12",
     "title": "Kayaking in Stockholm City",
@@ -4392,7 +4230,7 @@
     "extra2": null
   },
   {
-    "index": 244,
+    "index": 235,
     "month": "May",
     "day": "14",
     "title": "Skid Row ",
@@ -4410,7 +4248,7 @@
     "extra2": null
   },
   {
-    "index": 245,
+    "index": 236,
     "month": "May",
     "day": "17",
     "title": "Gogol Bordello",
@@ -4428,7 +4266,7 @@
     "extra2": null
   },
   {
-    "index": 246,
+    "index": 237,
     "month": "May",
     "day": "18",
     "title": "Lars Lerin",
@@ -4446,7 +4284,7 @@
     "extra2": null
   },
   {
-    "index": 247,
+    "index": 238,
     "month": "May",
     "day": "19",
     "title": "Birgit Nilsson 100 years - Concert",
@@ -4464,7 +4302,7 @@
     "extra2": null
   },
   {
-    "index": 248,
+    "index": 239,
     "month": "May",
     "day": "21",
     "title": "Wildlife Safari",
@@ -4482,7 +4320,7 @@
     "extra2": null
   },
   {
-    "index": 249,
+    "index": 240,
     "month": "May",
     "day": "22",
     "title": "Monster Magnet",
@@ -4500,7 +4338,7 @@
     "extra2": null
   },
   {
-    "index": 250,
+    "index": 241,
     "month": "May",
     "day": "23",
     "title": "James Blunt ",
@@ -4518,7 +4356,7 @@
     "extra2": null
   },
   {
-    "index": 251,
+    "index": 242,
     "month": "May",
     "day": "25",
     "title": "Sverigedagarna",
@@ -4536,7 +4374,7 @@
     "extra2": null
   },
   {
-    "index": 252,
+    "index": 243,
     "month": "May",
     "day": "25",
     "title": "Fast & Furious Live",
@@ -4554,7 +4392,7 @@
     "extra2": null
   },
   {
-    "index": 253,
+    "index": 244,
     "month": "May",
     "day": "25",
     "title": "Mando Diao",
@@ -4572,7 +4410,7 @@
     "extra2": null
   },
   {
-    "index": 254,
+    "index": 245,
     "month": "May",
     "day": "27",
     "title": "Kayaking in the Archipelago",
@@ -4590,7 +4428,7 @@
     "extra2": null
   },
   {
-    "index": 255,
+    "index": 246,
     "month": "May",
     "day": "30",
     "title": "Ingmar Bergman - 100 years",
@@ -4608,7 +4446,7 @@
     "extra2": null
   },
   {
-    "index": 256,
+    "index": 247,
     "month": "May",
     "day": "31",
     "title": "Game of Thrones Live Concert Experience",
@@ -4626,7 +4464,7 @@
     "extra2": null
   },
   {
-    "index": 257,
+    "index": 248,
     "month": "Jun",
     "day": "1",
     "title": "Iron Maiden",
@@ -4644,7 +4482,7 @@
     "extra2": null
   },
   {
-    "index": 258,
+    "index": 249,
     "month": "Jun",
     "day": "2",
     "title": "ASICS Stockholm Marathon 2018",
@@ -4662,7 +4500,7 @@
     "extra2": null
   },
   {
-    "index": 259,
+    "index": 250,
     "month": "Jun",
     "day": "2",
     "title": "Elvis in Concert - Live on Screen",
@@ -4680,7 +4518,7 @@
     "extra2": null
   },
   {
-    "index": 260,
+    "index": 251,
     "month": "Jun",
     "day": "5",
     "title": "A Perfect Circle",
@@ -4698,7 +4536,7 @@
     "extra2": null
   },
   {
-    "index": 261,
+    "index": 252,
     "month": "Jun",
     "day": "6",
     "title": " Marilyn Manson",
@@ -4716,7 +4554,7 @@
     "extra2": null
   },
   {
-    "index": 262,
+    "index": 253,
     "month": "Jun",
     "day": "10",
     "title": "Queens of the Stone Age",
@@ -4734,7 +4572,7 @@
     "extra2": null
   },
   {
-    "index": 263,
+    "index": 254,
     "month": "Jun",
     "day": "10",
     "title": "Katy Perry",
@@ -4752,7 +4590,7 @@
     "extra2": null
   },
   {
-    "index": 264,
+    "index": 255,
     "month": "Jun",
     "day": "15",
     "title": "Evening Kayaking in Stockholm City",
@@ -4770,7 +4608,7 @@
     "extra2": null
   },
   {
-    "index": 265,
+    "index": 256,
     "month": "Jun",
     "day": "16",
     "title": " Interactive Introverts - Dan och Phil",
@@ -4788,7 +4626,7 @@
     "extra2": null
   },
   {
-    "index": 266,
+    "index": 257,
     "month": "Jun",
     "day": "23",
     "title": "Seal safari in the archipelago",
@@ -4806,7 +4644,7 @@
     "extra2": null
   },
   {
-    "index": 267,
+    "index": 258,
     "month": "Jun",
     "day": "26",
     "title": "Prophets of Rage",
@@ -4824,7 +4662,7 @@
     "extra2": null
   },
   {
-    "index": 268,
+    "index": 259,
     "month": "Jul",
     "day": "14",
     "title": "Ed Sheeran",
@@ -4842,7 +4680,7 @@
     "extra2": null
   },
   {
-    "index": 269,
+    "index": 260,
     "month": "Jul",
     "day": "26",
     "title": "Europride 2018",
@@ -4860,7 +4698,7 @@
     "extra2": null
   },
   {
-    "index": 270,
+    "index": 261,
     "month": "Jul",
     "day": "27",
     "title": "Ziggy Marley",
@@ -4878,7 +4716,7 @@
     "extra2": null
   },
   {
-    "index": 271,
+    "index": 262,
     "month": "Aug",
     "day": "3",
     "title": " The Hellacopters",
@@ -4896,7 +4734,7 @@
     "extra2": null
   },
   {
-    "index": 272,
+    "index": 263,
     "month": "Aug",
     "day": "18",
     "title": "The Midnight Run",
@@ -4914,7 +4752,7 @@
     "extra2": null
   },
   {
-    "index": 273,
+    "index": 264,
     "month": "Aug",
     "day": "18",
     "title": "Pink Floyd´s Roger Waters",
@@ -4932,7 +4770,7 @@
     "extra2": null
   },
   {
-    "index": 274,
+    "index": 265,
     "month": "Aug",
     "day": "23",
     "title": "The Ingmar Bergman International Theatre Festival 2018",
@@ -4950,7 +4788,7 @@
     "extra2": null
   },
   {
-    "index": 275,
+    "index": 266,
     "month": "Aug",
     "day": "31",
     "title": "Europe",
@@ -4968,7 +4806,7 @@
     "extra2": null
   },
   {
-    "index": 276,
+    "index": 267,
     "month": "Sep",
     "day": "1",
     "title": "Tjejmilen",
@@ -4986,7 +4824,7 @@
     "extra2": null
   },
   {
-    "index": 277,
+    "index": 268,
     "month": "Sep",
     "day": "1",
     "title": "Dreamhack Masters",
@@ -5004,7 +4842,7 @@
     "extra2": null
   },
   {
-    "index": 278,
+    "index": 269,
     "month": "Sep",
     "day": "2",
     "title": "Sthlm Bike",
@@ -5022,7 +4860,7 @@
     "extra2": null
   },
   {
-    "index": 279,
+    "index": 270,
     "month": "Sep",
     "day": "3",
     "title": "Ö till Ö",
@@ -5040,7 +4878,7 @@
     "extra2": null
   },
   {
-    "index": 280,
+    "index": 271,
     "month": "Sep",
     "day": "12",
     "title": "Jeff Lynne's ELO ",
@@ -5058,7 +4896,7 @@
     "extra2": null
   },
   {
-    "index": 281,
+    "index": 272,
     "month": "Sep",
     "day": "28",
     "title": "Lidingöloppet",
@@ -5076,7 +4914,7 @@
     "extra2": null
   },
   {
-    "index": 282,
+    "index": 273,
     "month": "Oct",
     "day": "2",
     "title": "Max Raabe & Palast Orchester",
@@ -5094,7 +4932,7 @@
     "extra2": null
   },
   {
-    "index": 283,
+    "index": 274,
     "month": "Oct",
     "day": "5",
     "title": "Seinabo Sey",
@@ -5112,7 +4950,7 @@
     "extra2": null
   },
   {
-    "index": 284,
+    "index": 275,
     "month": "Oct",
     "day": "17",
     "title": "Shania Twain",
@@ -5130,7 +4968,7 @@
     "extra2": null
   },
   {
-    "index": 285,
+    "index": 276,
     "month": "Oct",
     "day": "20",
     "title": "Fat Freddy's Drop",
@@ -5148,7 +4986,7 @@
     "extra2": null
   },
   {
-    "index": 286,
+    "index": 277,
     "month": "Oct",
     "day": "22",
     "title": "Within Temptation",
@@ -5166,7 +5004,7 @@
     "extra2": null
   },
   {
-    "index": 287,
+    "index": 278,
     "month": "Nov",
     "day": "7",
     "title": "Stockholm International Film Festival 2018",
@@ -5184,7 +5022,7 @@
     "extra2": null
   },
   {
-    "index": 288,
+    "index": 279,
     "month": "Nov",
     "day": "27",
     "title": "Nitro Cirkus",

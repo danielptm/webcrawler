@@ -12,6 +12,7 @@ module.exports.startCrawler = () => {
         });
         const status = await page.open('https://www.visitstockholm.com/events/');
         const content = await page.property('content');
+
         let jsonEvents = null;
         const city = 'Stockholm';
         const country = 'Sweden';
@@ -28,6 +29,7 @@ module.exports.startCrawler = () => {
         }).then(async function (el) {
             setTimeout(async function () {
                 const content = await page.property('content');
+                console.log(content);
                 jsonEvents = parser.getRawEventsAndConvertToJson(city, country, content);
                 fs.writeFileSync('parsed-data/stockholm-events.json', JSON.stringify(jsonEvents));
                 if (content.toString().length > 1000) {
