@@ -1,5 +1,5 @@
 var express = require('express');
-const entry = require('../crawler/crawler');
+const entry = require('./crawler/crawler');
 const schedule = require('node-schedule');
 const fs = require('fs');
 
@@ -7,13 +7,23 @@ var app = express();
 
 app.use(function (req, res, next) {
 
-    const allowedOrigins = ['http://localhost:4200','http://localhost:4201'];
+    const allowedOrigins = [
+        'http://localhost:4200',
+        'http://localhost:4201',
+        'https://crawler.globati.com',
+        'https://admin.globati.com',
+        'https://crawler.globati.com/crawled-event',
+        'https://crawler.globati.com'
+    ];
 
     const origin = req.headers.origin;
 
     if (allowedOrigins.includes(origin)) {
         res.header("Access-Control-Allow-Origin", origin); // restrict it to the required domain
     }
+
+    console.log('********************************************** ORIGIN');
+    console.log(origin);
 
     // Website you wish to allow to connect
     res.setHeader('Access-Control-Allow-Origin', origin);
@@ -36,12 +46,12 @@ app.use(function (req, res, next) {
 
 const eventsUrl = 'parsed-data/stockholm-events.json';
 
-var j = schedule.scheduleJob('15 4 * * *', function(){
+var j = schedule.scheduleJob('24 8 * * *', function(){
     console.log('Starting web crawler...');
     entry.startCrawler();
 });
 
-app.listen(3000);
+app.listen(8081);
 
 app.get('/crawled-event', (req, res) => {
     let events = fs.readFile(eventsUrl, (err, data) =>{

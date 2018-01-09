@@ -29,7 +29,7 @@ module.exports.startCrawler = () => {
         }).then(async function (el) {
             setTimeout(async function () {
                 const content = await page.property('content');
-                console.log(content);
+                console.log(content);a
                 jsonEvents = parser.getRawEventsAndConvertToJson(city, country, content);
                 fs.writeFileSync('parsed-data/stockholm-events.json', JSON.stringify(jsonEvents));
                 if (content.toString().length > 1000) {
