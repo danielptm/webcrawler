@@ -24,12 +24,12 @@ module.exports.startCrawler = () => {
                 var e = document.createEvent('MouseEvents');
                 e.initMouseEvent('click', true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
                 a.dispatchEvent(e);
-            }, 5000);
+            }, 15000);
             return null;
         }).then(async function (el) {
             setTimeout(async function () {
                 const content = await page.property('content');
-                console.log(content);a
+                console.log(content);
                 jsonEvents = parser.getRawEventsAndConvertToJson(city, country, content);
                 fs.writeFileSync('parsed-data/stockholm-events.json', JSON.stringify(jsonEvents));
                 if (content.toString().length > 1000) {
@@ -37,7 +37,7 @@ module.exports.startCrawler = () => {
                 }
                 instance.exit();
                 loadEventsToGetJsonEventsWithStreetData(jsonEvents);
-            }, 10000)
+            }, 30000)
         });
     })();
 };
@@ -67,12 +67,11 @@ async function loadEventsToGetJsonEventsWithStreetData(events){
                 fs.writeFileSync('test/event-details.html', content.toString());
                 const event = parser.getStreetForEvents(events[i], content);
                 instance.exit();
+                console.log('******************************************** Retrieved an event and writing to file: *****************************************************');
+                console.log(event);
                 eventsToWrite.push(event);
-                if(eventsToWrite.length > 50) {
-                    fs.writeFileSync('parsed-data/stockholm-events.json', JSON.stringify(eventsToWrite));
-                }
+                fs.writeFileSync('parsed-data/stockholm-events.json', JSON.stringify(eventsToWrite));
             }, (time * i));
         }, time * i);
     }
-
 }

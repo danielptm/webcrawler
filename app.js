@@ -22,7 +22,6 @@ app.use(function (req, res, next) {
         res.header("Access-Control-Allow-Origin", origin); // restrict it to the required domain
     }
 
-    console.log('********************************************** ORIGIN');
     console.log(origin);
 
     // Website you wish to allow to connect
@@ -46,7 +45,7 @@ app.use(function (req, res, next) {
 
 const eventsUrl = 'parsed-data/stockholm-events.json';
 
-var j = schedule.scheduleJob('24 8 * * *', function(){
+var j = schedule.scheduleJob('15 1 * * *', function(){
     console.log('Starting web crawler...');
     entry.startCrawler();
 });
