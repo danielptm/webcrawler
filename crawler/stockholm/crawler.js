@@ -58,7 +58,6 @@ async function loadEventsToGetJsonEventsWithStreetData(events){
         let time = 5000;
         setTimeout(async function() {
 
-
             await page.on('onResourceRequested', function(requestData) {
                 console.info('Requesting', requestData.url);
             });
@@ -71,7 +70,10 @@ async function loadEventsToGetJsonEventsWithStreetData(events){
                 const event = parser.getStreetForEvents(events[i], content);
                 console.log('******************************************** Retrieved an event and writing to file: *****************************************************');
                 console.log(event);
-                eventsToWrite.push(event);
+
+                if(event.street !== null && event.streetNumber !== null) {
+                    eventsToWrite.push(event);
+                }
                 fs.writeFileSync('parsed-data/stockholm-events.json', JSON.stringify(eventsToWrite));
                 if(eventsToWrite.length === events.length){
                     instance.exit();
