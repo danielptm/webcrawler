@@ -16,10 +16,8 @@
     "@types/phantom": "^3.2.3",
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.2",
-    "line-by-line": "^0.1.6",
     "node-schedule": "^1.2.5",
-    "phantomjs-prebuilt": "^2.1.16",
-    "phantom": "^4.0.12",
+    "puppeteer": "^1.0.0",
     "request": "^2.83.0",
     "write": "^1.0.3"
   },
