@@ -2,6 +2,7 @@ const phantom = require('phantom');
 const fs = require('fs');
 const parser = require('./parser');
 
+//TODO: Redo the crawler with puppeteer https://www.npmjs.com/package/puppeteer
 module.exports.startCrawler = () => {
 
     (async function () {
