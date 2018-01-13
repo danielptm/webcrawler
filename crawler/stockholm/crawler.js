@@ -7,9 +7,8 @@ module.exports.startCrawler = () => {
     (async function () {
         const instance = await phantom.create();
         const page = await instance.createPage();
-        await page.on('onResourceRequested', function (requestData) {
-            console.info('Requesting', requestData.url);
-        });
+
+        console.log('Opening Stockholm events page');
         const status = await page.open('https://www.visitstockholm.com/events/');
         const content = await page.property('content');
 
@@ -18,7 +17,6 @@ module.exports.startCrawler = () => {
         const country = 'Sweden';
         page.evaluate(function () {
 
-            console.log("** Globati parser: Preparing to show all content. Program will finish in 30 seconds.");
             setTimeout(function () {
                 var a = document.getElementsByClassName('show-all-anchor')[0];
                 var e = document.createEvent('MouseEvents');
@@ -29,7 +27,6 @@ module.exports.startCrawler = () => {
         }).then(async function (el) {
             setTimeout(async function () {
                 const content = await page.property('content');
-                console.log(content);
                 jsonEvents = parser.getRawEventsAndConvertToJson(city, country, content);
                 fs.writeFileSync('parsed-data/stockholm-events.json', JSON.stringify(jsonEvents));
                 if (content.toString().length > 1000) {
@@ -53,26 +50,35 @@ async function loadEventsToGetJsonEventsWithStreetData(events){
 
     let eventsToWrite = [];
 
+    // page.on('onResourceRequested', function (requestData) {
+    //     console.info('Requesting', requestData.url);
+    // });
+
+    page.on('onConsoleMessage', function (msg) { console.log(msg); });
+
+    let failReadNumber = 0;
+
     for(let i=0; i < events.length; i++){
 
         let time = 5000;
         setTimeout(async function() {
-
-            await page.on('onResourceRequested', function(requestData) {
-                console.info('Requesting', requestData.url);
-            });
-
             await page.open(events[i].moreInfoLink);
-            console.log('Opening moreInfo page for: '+events[i].moreInfoLink);
             setTimeout(async function () {
                 const content = await page.property('content');
-                fs.writeFileSync('test/event-details.html', content.toString());
                 const event = parser.getStreetForEvents(events[i], content);
-                console.log('******************************************** Retrieved an event and writing to file: *****************************************************');
-                console.log(event);
 
                 if(event.street !== null && event.streetNumber !== null) {
+                    console.log('******************************************** Retrieved an event and writing to file: *****************************************************');
+                    console.log(event);
                     eventsToWrite.push(event);
+                }
+                else{
+                    //Write the data to a new file so it can be used as test data to improve the parser.
+                    console.log('** STREET NOT RETRIEVED');
+                    //use below just to get data, do not use it on production
+                    // failReadNumber++;
+                    // let fileToWrite = `test/html/failed_even_read_${failReadNumber}.html`;
+                    // fs.appendFileSync(fileToWrite, content.toString());
                 }
                 fs.writeFileSync('parsed-data/stockholm-events.json', JSON.stringify(eventsToWrite));
                 if(eventsToWrite.length === events.length){
