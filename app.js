@@ -1,5 +1,5 @@
 var express = require('express');
-const entry = require('./crawler/crawler');
+const entry = require('./crawler/stockholm/crawler');
 const schedule = require('node-schedule');
 const fs = require('fs');
 
@@ -44,6 +44,7 @@ app.use(function (req, res, next) {
 
 
 const eventsUrl = 'parsed-data/stockholm-events.json';
+
 
 var j = schedule.scheduleJob('15 1 * * *', function(){
     console.log('Starting web crawler...');

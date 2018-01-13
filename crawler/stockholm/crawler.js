@@ -47,6 +47,10 @@ module.exports.startCrawler = () => {
  * @param events
  */
 async function loadEventsToGetJsonEventsWithStreetData(events){
+
+    const instance = await phantom.create();
+    const page = await instance.createPage();
+
     let eventsToWrite = [];
 
     for(let i=0; i < events.length; i++){
@@ -54,8 +58,7 @@ async function loadEventsToGetJsonEventsWithStreetData(events){
         let time = 5000;
         setTimeout(async function() {
 
-            const instance = await phantom.create();
-            const page = await instance.createPage();
+
             await page.on('onResourceRequested', function(requestData) {
                 console.info('Requesting', requestData.url);
             });
@@ -66,11 +69,13 @@ async function loadEventsToGetJsonEventsWithStreetData(events){
                 const content = await page.property('content');
                 fs.writeFileSync('test/event-details.html', content.toString());
                 const event = parser.getStreetForEvents(events[i], content);
-                instance.exit();
                 console.log('******************************************** Retrieved an event and writing to file: *****************************************************');
                 console.log(event);
                 eventsToWrite.push(event);
                 fs.writeFileSync('parsed-data/stockholm-events.json', JSON.stringify(eventsToWrite));
+                if(eventsToWrite.length === events.length){
+                    instance.exit();
+                }
             }, (time * i));
         }, time * i);
     }

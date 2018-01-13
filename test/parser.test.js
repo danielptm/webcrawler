@@ -1,50 +1,7 @@
-const parser = require('../crawler/parser');
-var chai = require('chai');
-const assert = chai.assert;
-const fs = require('fs');
+
+const crawler = require('../crawler/stockholm/crawler');
 
 
-const streeturl = 'test/event-details.html';
-const rawEvents = null;
-const streetData = null;
-const dataurl = 'test/content.html';
-const content = null;
-
-
-
-beforeEach(() => {
-
-    const city = 'Stockholm';
-    const country = 'Sweden';
-
-    this.content = fs.readFileSync(dataurl).toString();
-    this.streetData = fs.readFileSync(streeturl);
-    this.content = fs.readFileSync(dataurl);
-    this.rawEvents = parser.getRawEventsAndConvertToJson( city, country, this.content );
-
-
+it('Should start the crawler', ()=>{
+    crawler.startCrawler();
 });
-
-
-
-it('Should parse data, and return objects in a json array.', () => {
-
-    this.rawEvents = parser.getRawEventsAndConvertToJson( this.city, this.country, this.content );
-
-    // console.log(this.rawEvents);
-
-    assert.strictEqual(true, this.rawEvents.length > 5);
-});
-
-
-it('Should get the street location for the event and store it in the object', ()=>{
-
-    for(var i =0; i < this.rawEvents.length; i++){
-        const adjustedEvent = parser.getStreetForEvents(this.rawEvents[i], this.streetData.toString());
-        // console.log(adjustedEvent);
-        assert.strictEqual(true, adjustedEvent.street !== null);
-    }
-
-}).timeout(20000);
-
-
