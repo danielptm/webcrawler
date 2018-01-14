@@ -53,10 +53,13 @@ var j = schedule.scheduleJob('35 13 * * *', function(){
 
 app.listen(8081);
 
-app.get('/crawled-event', (req, res) => {
-    let events = fs.readFile(eventsUrl, (err, data) =>{
-        if(err) throw err;
-        const response = JSON.parse(data).splice(0,80);
-        res.send(response);
-    });
+app.get('/crawled-event/:city', (req, res) => {
+    let city = req.params.city.toLowerCase();
+    if(city === 'stockholm') {
+        let events = fs.readFile(eventsUrl, (err, data) => {
+            if (err) throw err;
+            const response = JSON.parse(data).splice(0, 80);
+            res.send(response);
+        });
+    }
 });
