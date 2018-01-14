@@ -1,7 +1,5 @@
-const LineByLineReader = require('line-by-line');
 const cheerio = require('cheerio');
-const fs = require('fs');
-const request = require('request');
+
 
 
 const rootPath = 'https://www.visitstockholm.com';
