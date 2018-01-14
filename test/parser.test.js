@@ -3,8 +3,6 @@ const crawler = require('../crawler/stockholm/crawler');
 var chai = require('chai');
 const assert = chai.assert;
 const fs = require('fs');
-
-
 const rawEvents = null;
 const streetData = null;
 const dataurl = 'test/content.html';
@@ -13,21 +11,9 @@ const city = 'Stockholm';
 const country = 'Sweden';
 
 
-
-
-// it('Should parse data, and return objects in a json array.', () => {
-//
-//     this.rawEvents = parser.getRawEventsAndConvertToJson( this.city, this.country, this.content );
-//
-//     // console.log(this.rawEvents);
-//
-//     assert.strictEqual(true, this.rawEvents.length > 5);
-// });aa
-
-
 it('0 file', ()=>{
 
-    const streeturl = 'test/html/failed_even_read_0.html';
+    const streeturl = 'test/website_example_data/stockholm/location_failed/failed_even_read_0.html';
 
     this.content = fs.readFileSync(streeturl).toString();
     this.rawEvents = parser.getRawEventsAndConvertToJson( this.city, this.country, this.content );
@@ -42,7 +28,7 @@ it('0 file', ()=>{
 
 it('1 file', ()=>{
 
-    const streeturl = 'test/html/failed_even_read_1.html';
+    const streeturl = 'test/website_example_data/stockholm/location_failed/failed_even_read_1.html';
 
     this.content = fs.readFileSync(streeturl).toString();
     this.rawEvents = parser.getRawEventsAndConvertToJson( this.city, this.country, this.content );

@@ -1,1 +1,56 @@
-[{"index":7,"month":"Jan","day":"13","title":"The Spring Salon 2018","description":"Liljevalchs’ famous Spring Salon marks the opening of each new artistic year, presenting an authentic “smorgasbord” of art created by professionals and amateurs, old and young, representing high and low, paintings, embroidery,...","lat":null,"lng":null,"street":"Mälartorget","streetNumber":"13","city":"Stockholm","country":"Sweden","image":"https://www.visitstockholm.com/contentassets/9498f725fc7549588eb445ac0db1e488/eventadmin82.jpg?preset=rectangle_small","moreInfoLink":"https://www.visitstockholm.com/events/exhibitions/the-spring-salon-2018/","location":null,"extra":null,"extra2":null},{"index":9,"month":"Jan","day":"13","title":"Ice skating in Kungsträdgården","description":"Gliding around this ice-skating rink in the middle of the city is a must for any winter visitors to Stockholm. Renting skates is inexpensive and you can get help sharpening them if necessary. Opening hours: Weekdays 9am-9pm, weekends10am-9pm.\n","lat":null,"lng":null,"street":"Djurgårdsvägen","streetNumber":"38","city":"Stockholm","country":"Sweden","image":"https://www.visitstockholm.com/contentassets/bf49df68411c401f82566f54aae936e8/eventadmin59.jpg?preset=rectangle_small","moreInfoLink":"https://www.visitstockholm.com/events/family/ice-skating-in-kungstradgarden/","location":null,"extra":null,"extra2":null},{"index":33,"month":"Jan","day":"13","title":"Manipulate the World","description":"In a text from 1964, Öyvind Fahlström urges to manipulate the world. What does this mean for artists today, in our era of alternative facts, relative truths and fragmented narratives? In an exhibition filling two floors in the Museum, 28...","lat":null,"lng":null,"street":"Stortorget","streetNumber":"2","city":"Stockholm","country":"Sweden","image":"https://www.visitstockholm.com/contentassets/d68c1a04feed49fab26d137b7bb2c4fa/eventadmin11.jpg?preset=rectangle_small","moreInfoLink":"https://www.visitstockholm.com/events/exhibitions/manipulate-the-world/","location":null,"extra":null,"extra2":null}]
+[
+  {
+    "index": 7,
+    "month": "Jan",
+    "day": "13",
+    "title": "The Spring Salon 2018",
+    "description": "Liljevalchs’ famous Spring Salon marks the opening of each new artistic year, presenting an authentic “smorgasbord” of art created by professionals and amateurs, old and young, representing high and low, paintings, embroidery,...",
+    "lat": null,
+    "lng": null,
+    "street": "Mälartorget",
+    "streetNumber": "13",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "image": "https://www.visitstockholm.com/contentassets/9498f725fc7549588eb445ac0db1e488/eventadmin82.jpg?preset=rectangle_small",
+    "moreInfoLink": "https://www.visitstockholm.com/events/exhibitions/the-spring-salon-2018/",
+    "location": null,
+    "extra": null,
+    "extra2": null
+  },
+  {
+    "index": 9,
+    "month": "Jan",
+    "day": "13",
+    "title": "Ice skating in Kungsträdgården",
+    "description": "Gliding around this ice-skating rink in the middle of the city is a must for any winter visitors to Stockholm. Renting skates is inexpensive and you can get help sharpening them if necessary. Opening hours: Weekdays 9am-9pm, weekends10am-9pm.\n",
+    "lat": null,
+    "lng": null,
+    "street": "Djurgårdsvägen",
+    "streetNumber": "38",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "image": "https://www.visitstockholm.com/contentassets/bf49df68411c401f82566f54aae936e8/eventadmin59.jpg?preset=rectangle_small",
+    "moreInfoLink": "https://www.visitstockholm.com/events/family/ice-skating-in-kungstradgarden/",
+    "location": null,
+    "extra": null,
+    "extra2": null
+  },
+  {
+    "index": 33,
+    "month": "Jan",
+    "day": "13",
+    "title": "Manipulate the World",
+    "description": "In a text from 1964, Öyvind Fahlström urges to manipulate the world. What does this mean for artists today, in our era of alternative facts, relative truths and fragmented narratives? In an exhibition filling two floors in the Museum, 28...",
+    "lat": null,
+    "lng": null,
+    "street": "Stortorget",
+    "streetNumber": "2",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "image": "https://www.visitstockholm.com/contentassets/d68c1a04feed49fab26d137b7bb2c4fa/eventadmin11.jpg?preset=rectangle_small",
+    "moreInfoLink": "https://www.visitstockholm.com/events/exhibitions/manipulate-the-world/",
+    "location": null,
+    "extra": null,
+    "extra2": null
+  }
+]
