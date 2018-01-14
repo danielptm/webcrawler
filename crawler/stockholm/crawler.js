@@ -2,7 +2,6 @@ const puppeteer = require('puppeteer');
 const parser = require('./parser');
 
 
-//TODO: Redo the crawler with puppeteer https://www.npmjs.com/package/puppeteer
 module.exports.startCrawler = () => {
     const puppeteer = require('puppeteer');
     const city = 'Stockholm';
@@ -34,6 +33,7 @@ module.exports.startCrawler = () => {
                 eventsToWrite.push(event);
             }
             else{
+                // TODO: Create handler to write to test data. Make this be based off an environment variable, so its not called in production.
                 console.log('** Event found but location details could not be obtained');
             }
         }

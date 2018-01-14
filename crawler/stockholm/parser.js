@@ -26,6 +26,7 @@ module.exports.getRawEventsAndConvertToJson = (city, country, content) => {
     // $$('li').each((i, elem) => events.push(elem) );
 
     $$('li').each((i, elem) => {
+        // TODO: create a model folder and export this class, instead of defining the class here.
        const newEvent = {
            index: i,
            month: null,
