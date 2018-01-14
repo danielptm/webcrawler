@@ -9,37 +9,35 @@ module.exports.startCrawler = () => {
     const country = 'Sweden';
 
     (async () => {
+        let eventsToWrite = [];
+
         const browser = await puppeteer.launch();
         const page = await browser.newPage();
         await page.goto('https://www.visitstockholm.com/events/', {waitUntil: 'networkidle0'});
-
 
         await page.click('a.show-all-anchor');
 
         await page.waitFor(5000);
 
-        console.log('hi');
         let content = await page.content();
 
-        console.log(content);
+        let events = parser.getRawEventsAndConvertToJson(city, country, content);
 
-        // console.log(button);
-        // await button.evaluate(button => button.click());
-        //
-        // page.waitFor({waitUntil: 'networkidle0'});
-        //
-
-
-        // let events = parser.getRawEventsAndConvertToJson(city, country, content);
-
-
-
-
-
-
-        // console.log(events);
-
+        for(let i = 0; i < events.length; i++){
+            const page = await browser.newPage();
+            await page.goto(events[i].moreInfoLink, {waitUntil: 'networkidle0'});
+            await page.waitFor(5000);
+            let content = await page.content();
+            const event = parser.getStreetForEvents(events[i], content);
+            if(event.street != null && event.streetNumber != null){
+                console.log('** Web crawler found an event');
+                console.log(event);
+                eventsToWrite.push(event);
+            }
+            else{
+                console.log('** Event found but location details could not be obtained');
+            }
+        }
         await browser.close();
     })();
 };
-

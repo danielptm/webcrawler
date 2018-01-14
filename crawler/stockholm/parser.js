@@ -1,5 +1,5 @@
 const cheerio = require('cheerio');
-
+const fs = require('fs');
 
 
 const rootPath = 'https://www.visitstockholm.com';
@@ -17,6 +17,8 @@ module.exports.getRawEventsAndConvertToJson = (city, country, content) => {
 
     const $ = cheerio.load(content);
     let events = [];
+
+    fs.writeFileSync('unparsed-data/stockholm-events.json', content);
 
     const x = $('.eventList').html();
 
