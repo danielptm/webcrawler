@@ -46,7 +46,7 @@ app.use(function (req, res, next) {
 const eventsUrl = 'parsed-data/stockholm-events.json';
 
 
-var j = schedule.scheduleJob('0 18 * * *', function(){
+var j = schedule.scheduleJob('37 20 * * *', function(){
     console.log('Starting web crawler...');
     entry.startCrawler();
 });

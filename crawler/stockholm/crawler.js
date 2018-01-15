@@ -1,5 +1,6 @@
 const puppeteer = require('puppeteer');
 const parser = require('./parser');
+const fs = require('fs');
 
 
 module.exports.startCrawler = () => {
@@ -31,6 +32,8 @@ module.exports.startCrawler = () => {
                 console.log('** Web crawler found an event');
                 console.log(event);
                 eventsToWrite.push(event);
+                fs.writeFileSync('parsed-data/stockholm-events.json', JSON.stringify(eventsToWrite));
+
             }
             else{
                 // TODO: Create handler to write to test data. Make this be based off an environment variable, so its not called in production.
