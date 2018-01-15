@@ -18,8 +18,6 @@ module.exports.getRawEventsAndConvertToJson = (city, country, content) => {
     const $ = cheerio.load(content);
     let events = [];
 
-    fs.writeFileSync('unparsed-data/stockholm-events.json', content);
-
     const x = $('.eventList').html();
 
     const $$ = cheerio.load(x);
