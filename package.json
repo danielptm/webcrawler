@@ -7,7 +7,7 @@
     "test": "mocha **/*.test.js",
     "test-watch": "nodemon --exec 'npm test'",
     "crawler-test": "mocha **/test-crawler.js",
-    "start": "node app.js"
+    "start": "LD_LIBRARY_PATH=/opt/google/chrome/lib/:${LD_LIBRARY_PATH} node app.js"
   },
   "author": "",
   "license": "ISC",
