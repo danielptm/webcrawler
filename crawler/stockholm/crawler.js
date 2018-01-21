@@ -9,6 +9,10 @@ module.exports.startCrawler = () => {
     const country = 'Sweden';
 
     (async () => {
+
+        console.log(' **** STOCKHOLM crawler starting on: ****');
+        console.log(new Date());
+
         let eventsToWrite = [];
 
         const browser = await puppeteer.launch({args: ['--no-sandbox']});
