@@ -22,7 +22,7 @@ app.use(function (req, res, next) {
         res.header("Access-Control-Allow-Origin", origin); // restrict it to the required domain
     }
 
-    console.log(origin);
+    console.log('Origin: '+origin);
 
     // Website you wish to allow to connect
     res.setHeader('Access-Control-Allow-Origin', origin);
@@ -62,4 +62,61 @@ app.get('/crawled-event/:city', (req, res) => {
             res.send(response);
         });
     }
+    else {
+        res.send([]);
+    }
 });
+
+app.get('/defaultmessage/:city', (req, res) => {
+    let city = req.params.city.toUpperCase();
+    let message = `Sorry! The automatic events listing service is not running in ${city} yet, but you can check the site below for events and add them manually to your globati page.`;
+    console.log('No events: ');
+    console.log(city);
+    let noevents = {
+        "message":null,
+        "link":null
+    };
+    res.send(noevents);
+    if( city === 'Amsterdam' ){
+        let noevents = {
+            "message": message,
+            "link":"https://www.iamsterdam.com/en/see-and-do/whats-on/monthly-event-calendar"
+        };
+        res.send(noevents)
+    }
+    else if(city ==='Oslo'){
+        let noevents = {
+            "message":message,
+            "link":'https://www.visitoslo.com/en/whats-on/events/'
+        };
+
+    }
+    else if(city ==='Copenhagen'){
+        let noevents = {
+            "message":message,
+            "link":'https://www.visitcopenhagen.com/search/whatson'
+        };
+
+    }
+    else if(city ==='Malmo' || 'Malmö'){
+        let noevents = {
+            "message":message,
+            "link":'http://www.malmotown.com/en/events-calendar/'
+        };
+
+    }
+    else if(city ==='Gothenburg'){
+        let noevents = {
+            "message":message,
+            "link":'http://www.goteborg.com/en/events/'
+        };
+
+    }
+    else if(city ==='London'){
+        let noevents = {
+            "message":message,
+            "link":'https://www.visitlondon.com/things-to-do/whats-on/special-events/london-events-calendar'
+        };
+
+    }
+})
