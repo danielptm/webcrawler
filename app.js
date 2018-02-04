@@ -22,7 +22,7 @@ app.use(function (req, res, next) {
         res.header("Access-Control-Allow-Origin", origin); // restrict it to the required domain
     }
 
-    console.log(origin);
+    console.log('Origin: '+origin);
 
     // Website you wish to allow to connect
     res.setHeader('Access-Control-Allow-Origin', origin);
@@ -45,10 +45,74 @@ var j = schedule.scheduleJob('16 21 * * *', function(){
 
 app.listen(8081);
 
-app.get('/crawled-event', (req, res) => {
-    let events = fs.readFile(eventsUrl, (err, data) =>{
-        if(err) throw err;
-        const response = JSON.parse(data).splice(0,80);
-        res.send(response);
-    });
+app.get('/crawled-event/:city', (req, res) => {
+    let city = req.params.city.toLowerCase();
+    if(city === 'stockholm') {
+        let events = fs.readFile(eventsUrl, (err, data) => {
+            if (err) throw err;
+            const response = JSON.parse(data).splice(0, 80);
+            res.send(response);
+        });
+    }
+    else {
+        const nohit = [];
+        res.send(nohit);
+    }
 });
+
+app.get('/crawled-event/noeventsmessage/:city', (req, res) => {
+    let city = req.params.city.toLowerCase();
+    let message = `Sorry! The automatic events listing service is not running in ${city} yet, but you can check the site below for events and add them manually to your globati page.`;
+    let noevents = null;
+
+    if( city === 'amsterdam' ){
+        noevents = {
+            "message": message,
+            "link":"https://www.iamsterdam.com/en/see-and-do/whats-on/monthly-event-calendar"
+        };
+    }
+    else if(city === 'oslo'){
+        noevents = {
+            "message":message,
+            "link":'https://www.visitoslo.com/en/whats-on/events/'
+        };
+
+    }
+    else if(city === 'copenhagen' || city ==='københavn'){
+        noevents = {
+            "message":message,
+            "link":'https://www.visitcopenhagen.com/search/whatson'
+        };
+
+    }
+    else if(city === 'malmo' || city === 'malmö'){
+        noevents = {
+            "message":message,
+            "link":'http://www.malmotown.com/en/events-calendar/'
+        };
+
+    }
+    else if(city === 'gothenburg' || city === 'göteborg'){
+        noevents = {
+            "message":message,
+            "link":'http://www.goteborg.com/en/events/'
+        };
+
+    }
+    else if(city === 'london'){
+        noevents = {
+            "message":message,
+            "link":'https://www.visitlondon.com/things-to-do/whats-on/special-events/london-events-calendar'
+        };
+
+    }
+    else{
+        noevents = {
+            "message": `Sorry! The automatic events listing service is not running in ${city} yet. If you want it running here then let us know at.`,
+            "link": "https://globati.com"
+        }
+    }
+
+    res.send(noevents)
+
+})
