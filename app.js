@@ -54,10 +54,6 @@ app.get('/crawled-event/:city', (req, res) => {
             res.send(response);
         });
     }
-    else {
-        const nohit = [];
-        res.send(nohit);
-    }
 });
 
 app.get('/crawled-event/noeventsmessage/:city', (req, res) => {
