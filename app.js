@@ -65,6 +65,13 @@ app.get('/crawled-event/noeventsmessage/:city', (req, res) => {
     let message = `Sorry! The automatic events listing service is not running in ${city} yet, but you can check the site below for events and add them manually to your globati page.`;
     let noevents = null;
 
+    if( city=== 'stockholm'){
+        noevents = {
+            "message": message,
+            "link": "https://www.visitstockholm.com/events/"
+        }
+    }
+
     if( city === 'amsterdam' ){
         noevents = {
             "message": message,
